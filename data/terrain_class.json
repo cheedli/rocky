@@ -1,0 +1,447 @@
+{
+ "file": "terrain_class.bin",
+ "dtype": "uint8",
+ "layout": "row-major, north-up, same grid as elev.bin",
+ "grid": {
+  "w": 1066,
+  "h": 1066,
+  "res": 3.0
+ },
+ "classes": [
+  {
+   "id": 0,
+   "name": "unknown (no colour imagery: panchromatic strip of the mosaic, or no data)",
+   "color": "#00000000",
+   "terrain_factor": 1.0,
+   "factor_source": "Unmapped, assumed firm (factor 1.0). No terrain class could be assigned here."
+  },
+  {
+   "id": 1,
+   "name": "firm ground (bedrock, consolidated regolith)",
+   "color": "#d9a066",
+   "terrain_factor": 1.0,
+   "factor_source": "Pandolf, Givoni & Goldman 1977 / Soule & Goldman 1972 terrain coefficient eta = 1.0 (blacktop road or treadmill), i.e. the reference surface of the walking model; table reproduced in Potter et al. 2013, J Sport Hum Perf 1(3):34-42, https://jhp-ojs-tamucc.tdl.org/jhp/article/view/jshp.0009.2013/pdf . Bedrock itself was never measured; equating it with firm road is our assumption (eta = 1.1 \"dirt road\" is the next category)."
+  },
+  {
+   "id": 2,
+   "name": "loose sand (dark aeolian sand, ripples, sand sheets)",
+   "color": "#3c8cff",
+   "terrain_factor": 2.1,
+   "terrain_factor_range": [
+    1.8,
+    2.7
+   ],
+   "factor_source": "eta = 2.1 \"loose sand\", Soule & Goldman 1972 (J Appl Physiol 32:706) as used in Pandolf et al. 1977 (J Appl Physiol 43:577); quoted in Potter et al. 2013 https://jhp-ojs-tamucc.tdl.org/jhp/article/view/jshp.0009.2013/pdf (measured ratios 1.84-2.45: Richmond, Potter & Santee 2015, https://jhp-ojs-tamucc.tdl.org/jhp/article/view/67/pdf_17). Independent check: Lejeune, Willems & Heglund 1998, J Exp Biol 201:2071, \"walking on sand requires 2.1-2.7 times more energy expenditure than does walking on a hard surface at the same speed\", https://europepmc.org/article/MED/9622579"
+  },
+  {
+   "id": 3,
+   "name": "rough ground (DEM: >0.15 m relief inside the 3 m cell; scarps, ledges, blocky ground)",
+   "color": "#c0392b",
+   "terrain_factor": 1.3,
+   "terrain_factor_range": [
+    1.28,
+    2.15
+   ],
+   "speed_factor": 0.86,
+   "factor_source": "Voloshina, Kuo, Daley & Ferris 2013, J Exp Biol 216:3963, uneven terrain raised net metabolic rate by 28% (https://pmc.ncbi.nlm.nih.gov/articles/PMC4236228); upper bound: Gast, Kram & Riemer 2019, J Exp Biol 222:jeb185447, cost of transport ~115% higher on a rocky trail and preferred speed 1.07 vs 1.24 m/s (speed_factor 0.86), https://europepmc.org/article/MED/30910832"
+  }
+ ],
+ "factor_usage": "terrain_factor multiplies the LOCOMOTION part of the metabolic energy of entering a cell. In Pandolf et al. 1977, M = 1.5W + 2.0(W+L)(L/W)^2 + eta(W+L)(1.5V^2 + 0.35VG): eta scales only the walking term, not the standing/basal terms (equation and term definitions: https://en.wikipedia.org/wiki/Pandolf_equation ; Earth-gravity coefficients; no 0.38 g data exist). Not flagged as sand does NOT mean firm: sand recall is only ~0.6. Only class 3 has a sourced speed reduction; a time penalty for sand is NOT given by these sources (Lejeune measured at equal speed).",
+ "sand_threshold": 0.5,
+ "model": {
+  "name": "TETHER terrain-AI v1",
+  "sand_classifier": "Gradient-boosted trees (scikit-learn HistGradientBoosting) on per-cell features: dinov2-small_rgb_3m+12m+colour+texture+dem",
+  "backbone": "DINOv2-small (Meta AI, self-supervised ViT-S/14, facebook/dinov2-small), frozen, run on the RGB HiRISE image twice: 1 ViT patch = 1 planning cell (3 m) and 1 patch = 4x4 cells (12 m, bilinearly upsampled); each PCA to 24 dims",
+  "extra_features": "HiRISE colour chromaticity and relative brightness, 0.5 m texture, slope, topographic position index (9/33/75 m), 1 m roughness",
+  "training_labels": "497 decided visually interpreted cells: 347 from the stratified 20x20 check grid (53 unsure excluded) + 150 targeted training-only cells (200 drawn, 50 unsure excluded)",
+  "nasa_benchmark_cnn": "ResNet-18 fine-tuned on the NASA JPL HiRISE landmark data set v3.2 (dune detector); good benchmark score but weak transfer to this AOI, see metrics"
+ },
+ "metrics": {
+  "test_accuracy": 0.9484848484848485,
+  "confusion": {
+   "labels": [
+    "not sand",
+    "sand"
+   ],
+   "rows_true_cols_pred": [
+    [
+     291,
+     2
+    ],
+    [
+     15,
+     22
+    ]
+   ]
+  },
+  "test_accuracy_note": "Development spatial-block CV of the SHIPPED map (same post-processing applied to the out-of-fold probability map) on the visually labelled check cells that are clear from orbit. The check set also guided feature-set choice, so this is a development score, not a pristine test. Compare with all_firm_baseline_accuracy.",
+  "map_level_cv": {
+   "n_scored": 330,
+   "n_sand": 37,
+   "n_excluded_unsure": 53,
+   "n_excluded_unknown_class0": 17,
+   "accuracy": 0.9484848484848485,
+   "sand_precision": 0.9166666666666666,
+   "sand_recall": 0.5945945945945946,
+   "all_firm_baseline_accuracy": 0.8878787878787879,
+   "confusion": {
+    "labels": [
+     "not sand",
+     "sand"
+    ],
+    "rows_true_cols_pred": [
+     [
+      291,
+      2
+     ],
+     [
+      15,
+      22
+     ]
+    ]
+   },
+   "balanced_accuracy": 0.7938843280140209
+  },
+  "postprocessing": {
+   "raw_sand_cells": 97743,
+   "removed_by_2x2_opening": 7690,
+   "removed_steeper_than_repose": 821,
+   "threshold": 0.5,
+   "repose_slope_deg": 33.0,
+   "rough_relief_m": 0.15
+  },
+  "classifier_point_cv": {
+   "n": 347,
+   "n_sand": 38,
+   "accuracy": 0.9452449567723343,
+   "balanced_accuracy": 0.7961590870379833,
+   "auc": 0.9489865440299778,
+   "sand_precision": 0.8518518518518519,
+   "sand_recall": 0.6052631578947368,
+   "sand_f1": 0.7076923076923077,
+   "all_firm_baseline_accuracy": 0.8904899135446686,
+   "confusion@0.5": {
+    "labels": [
+     "firm",
+     "sand"
+    ],
+    "matrix": [
+     [
+      305,
+      4
+     ],
+     [
+      15,
+      23
+     ]
+    ]
+   }
+  },
+  "cv_protocol": "5-fold spatial block CV (5x5 macro-blocks of ~640 m; folds = whole blocks), 3x3-cell label expansion in training only",
+  "ablation": {
+   "baseline_colour_texture_dem (no DL)": {
+    "auc": 0.9404701073071027,
+    "accuracy": 0.9481268011527377,
+    "balanced_accuracy": 0.832396525293817,
+    "sand_precision": 0.8125,
+    "sand_recall": 0.6842105263157895,
+    "sand_f1": 0.7428571428571429
+   },
+   "dinov2_only": {
+    "auc": 0.8665474365525464,
+    "accuracy": 0.9048991354466859,
+    "balanced_accuracy": 0.7042667347981605,
+    "sand_precision": 0.5862068965517241,
+    "sand_recall": 0.4473684210526316,
+    "sand_f1": 0.5074626865671642
+   },
+   "landmark_cnn_dune_prob_only": {
+    "auc": 0.5578266053483223,
+    "accuracy": 0.6772334293948127,
+    "balanced_accuracy": 0.541815704309317,
+    "sand_precision": 0.13725490196078433,
+    "sand_recall": 0.3684210526315789,
+    "sand_f1": 0.2
+   },
+   "dinov2+colour+texture+dem": {
+    "auc": 0.9268438085505024,
+    "accuracy": 0.9394812680115274,
+    "balanced_accuracy": 0.7813830693237949,
+    "sand_precision": 0.8148148148148148,
+    "sand_recall": 0.5789473684210527,
+    "sand_f1": 0.676923076923077
+   },
+   "dinov2+landmark_cnn+colour+texture+dem": {
+    "auc": 0.9316130131153126,
+    "accuracy": 0.9452449567723343,
+    "balanced_accuracy": 0.7846193152784875,
+    "sand_precision": 0.88,
+    "sand_recall": 0.5789473684210527,
+    "sand_f1": 0.6984126984126984
+   },
+   "dinov2-small_rgb_only": {
+    "auc": 0.9067450178845171,
+    "accuracy": 0.9221902017291066,
+    "balanced_accuracy": 0.7716743314597172,
+    "sand_precision": 0.6666666666666666,
+    "sand_recall": 0.5789473684210527,
+    "sand_f1": 0.6197183098591549
+   },
+   "dinov2-small_rgb+colour+texture+dem": {
+    "auc": 0.9426843808550502,
+    "accuracy": 0.9394812680115274,
+    "balanced_accuracy": 0.7698432975642991,
+    "sand_precision": 0.84,
+    "sand_recall": 0.5526315789473685,
+    "sand_f1": 0.6666666666666666
+   },
+   "dinov2-base_rgb_only": {
+    "auc": 0.8255833759155169,
+    "accuracy": 0.8818443804034583,
+    "balanced_accuracy": 0.702861522738886,
+    "sand_precision": 0.46153846153846156,
+    "sand_recall": 0.47368421052631576,
+    "sand_f1": 0.4675324675324675
+   },
+   "dinov2-base_rgb+colour+texture+dem": {
+    "auc": 0.9233520694941236,
+    "accuracy": 0.9394812680115274,
+    "balanced_accuracy": 0.7698432975642991,
+    "sand_precision": 0.84,
+    "sand_recall": 0.5526315789473685,
+    "sand_f1": 0.6666666666666666
+   },
+   "dinov2-small_x4_rgb_only": {
+    "auc": 0.8931187191279168,
+    "accuracy": 0.9193083573487032,
+    "balanced_accuracy": 0.7469766649633793,
+    "sand_precision": 0.6666666666666666,
+    "sand_recall": 0.5263157894736842,
+    "sand_f1": 0.5882352941176471
+   },
+   "dinov2-small_x4_rgb+colour+texture+dem": {
+    "auc": 0.9472832566854028,
+    "accuracy": 0.9394812680115274,
+    "balanced_accuracy": 0.7698432975642991,
+    "sand_precision": 0.84,
+    "sand_recall": 0.5526315789473685,
+    "sand_f1": 0.6666666666666666
+   },
+   "dinov2-small_rgb_3m+12m+colour+texture+dem": {
+    "auc": 0.9489865440299778,
+    "accuracy": 0.9452449567723343,
+    "balanced_accuracy": 0.7961590870379833,
+    "sand_precision": 0.8518518518518519,
+    "sand_recall": 0.6052631578947368,
+    "sand_f1": 0.7076923076923077
+   }
+  },
+  "nasa_landmark_benchmark": {
+   "note": "ResNet-18 on the NASA JPL HiRISE landmark data set v3.2, held-out source-image-disjoint test split. NOT used in the shipped map (weak transfer: AUC ~0.56-0.69 on AOI sand vs firm).",
+   "accuracy": 0.8600111544896821,
+   "balanced_accuracy": 0.7785458378038845,
+   "majority_baseline": 0.826547685443391,
+   "dune_vs_rest": {
+    "auc": 0.992202534532651,
+    "recall": 0.975609756097561,
+    "precision": 0.7476635514018691
+   },
+   "per_class_recall": {
+    "other": 0.8738191632928475,
+    "crater": 0.8202247191011236,
+    "dark_dune": 0.9696969696969697,
+    "slope_streak": 0.8979591836734694,
+    "bright_dune": 1.0,
+    "impact_ejecta": 0.5714285714285714,
+    "swiss_cheese": 0.9761904761904762,
+    "spider": 0.11904761904761904
+   },
+   "n_test": 1793,
+   "confusion": [
+    [
+     1295,
+     47,
+     14,
+     92,
+     10,
+     16,
+     4,
+     4
+    ],
+    [
+     10,
+     73,
+     0,
+     1,
+     1,
+     4,
+     0,
+     0
+    ],
+    [
+     2,
+     0,
+     64,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     1,
+     1,
+     44,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     16,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     1,
+     4,
+     0,
+     1
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     41,
+     0
+    ],
+    [
+     37,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5
+    ]
+   ],
+   "class_names": [
+    "other",
+    "crater",
+    "dark_dune",
+    "slope_streak",
+    "bright_dune",
+    "impact_ejecta",
+    "swiss_cheese",
+    "spider"
+   ]
+  },
+  "traverse_check": {
+   "n_waypoints_in_aoi": 257,
+   "class_fraction_at_waypoints": {
+    "unknown": 0.0,
+    "firm": 0.9260700389105059,
+    "sand": 0.07392996108949416,
+    "rough": 0.0
+   },
+   "class_fraction_whole_aoi": {
+    "unknown": 0.053703240885778755,
+    "firm": 0.8485096219846597,
+    "sand": 0.07789636346356248,
+    "rough": 0.019890773665999034
+   },
+   "navcam_ground_truth": {
+    "method": "Downward-looking Navcam frame (lowest mast elevation, ~-17 to -28 deg) at 60 end-of-drive waypoints, ground visually labelled firm / mixed / sand / not visible (deck-only frames). Compared with the map in the 15 m x 15 m box around the rover (predicted sand if >=20% of the box is class 2).",
+    "groups": {
+     "firm": {
+      "n": 38,
+      "mean_p_sand_15m": 0.047541954327147994,
+      "predicted_sand_within_15m": 1
+     },
+     "mixed": {
+      "n": 5,
+      "mean_p_sand_15m": 0.18400446735322476,
+      "predicted_sand_within_15m": 1
+     },
+     "sand": {
+      "n": 5,
+      "mean_p_sand_15m": 0.5811551205813885,
+      "predicted_sand_within_15m": 3
+     },
+     "not_visible": {
+      "n": 12,
+      "mean_p_sand_15m": 0.1104862202143219,
+      "predicted_sand_within_15m": 1
+     }
+    },
+    "sand_sites": [
+     {
+      "rmc": "106_2692",
+      "p_nb": 0.052,
+      "sand_frac_nb": 0.04
+     },
+     {
+      "rmc": "124_1872",
+      "p_nb": 0.998,
+      "sand_frac_nb": 1.0
+     },
+     {
+      "rmc": "124_2866",
+      "p_nb": 0.973,
+      "sand_frac_nb": 1.0
+     },
+     {
+      "rmc": "125_1194",
+      "p_nb": 0.831,
+      "sand_frac_nb": 0.84
+     },
+     {
+      "rmc": "125_2490",
+      "p_nb": 0.053,
+      "sand_frac_nb": 0.0
+     }
+    ]
+   }
+  },
+  "class_fractions": {
+   "unknown": 0.053703240885778755,
+   "firm": 0.8485096219846597,
+   "sand": 0.07789636346356248,
+   "rough": 0.019890773665999034
+  }
+ },
+ "method": "1) Lock a spatially stratified check set (400 cells, 20x20 jittered grid) and label it visually from 48 m HiRISE crops (sand / firm / unsure) BEFORE any model output. 2) Extract frozen DINOv2 embeddings of the RGB image at two scales (one ViT patch = one 3 m cell, and = 12 m), plus colour, texture and DEM features. 3) Train a gradient-boosted classifier for sand vs firm; score it with 5-fold spatial block cross-validation (whole ~640 m blocks held out), then post-process (p>0.5, 2x2 opening, no isolated sand on slopes >33 deg (assumed repose limit), panchromatic strip -> unknown) and re-score the post-processed out-of-fold map. 4) Class 3 (rough) is NOT learned: it is 1 m DEM relief inside the 3 m cell > 0.15 m. 5) Check against Curiosity: class at its 257 end-of-drive positions, and Navcam ground photos at 60 of them. 6) Separately, a ResNet-18 trained on NASA JPL's labelled HiRISE data set was tested as a dune detector on this area (benchmark accuracy reported; transfer is weak, so it is not used in the final map).",
+ "sources": [
+  "HiRISE LRGB mosaic of Gale (USGS Astrogeology; HiRISE NASA/JPL/University of Arizona)",
+  "USGS MSL Gale DEM mosaic 1 m v3",
+  "Doran, G., Wagstaff, K. et al. (2020) Mars orbital image (HiRISE) labeled data set version 3.2, Zenodo, doi:10.5281/zenodo.4002935 (via Mars-Bench, Hugging Face Mirali33/mb-landmark_cls, CC-BY-4.0)",
+  "Oquab, M. et al. (2023) DINOv2: Learning Robust Visual Features without Supervision, arXiv:2304.07193 (weights facebook/dinov2-small, Apache-2.0)",
+  "He, K. et al. (2016) Deep residual learning (ResNet-18, torchvision ImageNet weights)",
+  "Curiosity waypoints (NASA/JPL MMGIS) and Navcam raw images (NASA/JPL-Caltech)",
+  "Terrain factors: Soule & Goldman 1972; Pandolf et al. 1977; Lejeune et al. 1998; Voloshina et al. 2013; Gast et al. 2019 (URLs in classes[])"
+ ],
+ "caveats": [
+  "Training and check labels are visual photo-interpretation of 0.5 m HiRISE crops made with an AI assistant (Claude), not by a planetary geologist; a team member can audit them in pipeline/vision/labels/. Only 38 of 347 scored check cells are sand, so sand precision/recall have wide uncertainty (roughly +/-0.1).",
+  "Colour carries most of the signal: the no-deep-learning baseline (colour + texture + DEM) scores about the same AUC as the DINOv2 model (differences are within noise with 38 sand cells). Sand recall is ~0.6: tan, dust-coloured ripple fields and sand between rock blocks are often missed, so \"not flagged\" does not mean firm.",
+  "The 53 check cells labelled unsure (often blue-grey knobby ground) are not scored; the Navcam site 125_2490 suggests that ground type is often sandy.",
+  "The check set guided model selection (12 feature sets compared, a 12 m pass added, batch-3 training cells sampled where tan ripples were missed), so the CV score is a development score. The Navcam comparison is the only untouched evidence, and it has only 5 sand sites.",
+  "Dark-toned bedrock and thin sand veneers over rock look alike from orbit; shadows on steep slopes can look like dark sand. Curiosity drove over sandy ground at the south end of the traverse (Navcam sites 124-125); the map flags 3 of the 5 sandy Navcam sites.",
+  "The west strip and a small south-edge patch of the mosaic are panchromatic (no colour, ~6% of the AOI). There the sand model flagged dark rough rock as sand, so those cells (plus a 2-cell seam) are class 0 unknown; only the DEM-derived rough class is kept there.",
+  "Rough class is a DEM threshold, not validated against ground truth; HiRISE DEM noise (~0.1-0.2 m) adds false rough cells.",
+  "Terrain factors are Earth-gravity energy coefficients for unsuited walkers; no validated 0.38 g suited-walking terrain data exist."
+ ]
+}
