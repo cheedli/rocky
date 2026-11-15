@@ -1,0 +1,17 @@
+{
+ "lat": -4.74765625,
+ "lon": 137.3943118,
+ "size_m": 600,
+ "res_m": 1,
+ "img_px": 2400,
+ "x0": 8143706.273367823,
+ "y_top": -281115.88816338434,
+ "offset": -4036.686951968149,
+ "scale": 0.0018933743990384615,
+ "zmin": -4036.68505859375,
+ "zmax": -3913.61572265625,
+ "stop_col": 300.0,
+ "stop_row": 300.0,
+ "source_dem": "USGS MSL Gale DEM Mosaic 1 m v3",
+ "source_img": "USGS MSL Gale HiRISE LRGB colour mosaic (25 cm)"
+}

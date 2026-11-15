@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rocky, Mount Sharp in your room</title>
+<meta name="description" content="Scan your floor and walk around Curiosity's boxwork region on Mount Sharp, with a planned Marswalk.">
+<link rel="icon" href="./favicon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Public+Sans:wght@400;600&family=DM+Mono:wght@500&display=swap">
+  <script type="module" crossorigin src="./assets/ar-CDEBH9i1.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="./assets/three.module-CtL4CdWW.js">
+  <link rel="modulepreload" crossorigin href="./assets/BufferGeometryUtils-D3sKrclM.js">
+  <link rel="modulepreload" crossorigin href="./assets/GLTFLoader-BsmbAwNU.js">
+  <link rel="stylesheet" crossorigin href="./assets/ar-Cc4gsmPn.css">
+</head>
+<body>
+  <main id="landing">
+    <a class="logo" href="./"><img src="./logo-64.png" alt="" width="30" height="30">Rocky</a>
+    <h1>Mount Sharp in your room</h1>
+    <p class="lead">Scan your floor, then walk around Curiosity’s boxwork region on Mount Sharp: real terrain spread across your room, with a planned Marswalk glowing on the ground.</p>
+    <img class="poster" src="./data/ar/poster.jpg" alt="Mount Sharp terrain model with a planned route">
+    <div id="actions"></div>
+    <div class="legend">
+      <span class="sw" style="background:#7fe3ff;border:1px solid #6cc"></span><span>Planned route, the habitat and its beacon</span>
+      <span class="sw" style="background:#ffb35c"></span><span>Science stops: real Curiosity drill sites</span>
+      <span class="sw" style="background:#4fd18b"></span><span>Inside the tether: the crew can still walk home with its reserve</span>
+      <span class="sw" style="background:#96141a"></span><span>Beyond the tether</span>
+    </div>
+    <p class="note" id="how"></p>
+    <p class="note">Terrain: USGS MSL Gale 1 m DEM and HiRISE colour (NASA/JPL/University of Arizona). Room scale: about 1.2 km of Mars shown 6 m wide, true height. Demo plan: habitat near Curiosity’s sol 4600 position; stops at Altadena, Nevado Sajama and Campo Marte. AR work from Malek’s TETHER. Not affiliated with NASA.</p>
+    <a class="link" href="./">Open the Rocky planner</a>
+  </main>
+
+  <div id="overlay" hidden>
+    <div class="top">
+      <div class="chip mono">Rocky, Mount Sharp</div>
+      <button id="exit" class="ghost">Exit</button>
+    </div>
+    <div id="hint" class="hint">Scanning the floor… move your phone slowly</div>
+    <div class="bottom">
+      <div id="controls" hidden>
+        <button id="rotL">⟲</button>
+        <button id="size" class="mono">6 m</button>
+        <button id="rotR">⟳</button>
+        <button id="move" class="ghost">Move</button>
+      </div>
+      <button id="place" class="primary" hidden>Place Mars here</button>
+    </div>
+  </div>
+</body>
+</html>

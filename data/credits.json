@@ -1,0 +1,91 @@
+{
+ "generated": "2026-11-14",
+ "sources": [
+  {
+   "name": "MSL (Curiosity) traverse waypoints",
+   "provider": "NASA/JPL-Caltech, MSL mission (localized waypoint GeoJSON, as supplied in data/raw/MSL_waypoints.json)",
+   "url": "local: data/raw/MSL_waypoints.json (public MSL MMGIS waypoint layer; exact download URL not re-verified here)",
+   "used_in": [
+    "waypoints.json",
+    "science_targets.json"
+   ],
+   "licence": "NASA content is generally not copyrighted and may be used for educational/informational purposes; credit NASA/JPL-Caltech."
+  },
+  {
+   "name": "MSL raw image API (Navcam NAV_LEFT_B, Mastcam MAST_LEFT/MAST_RIGHT)",
+   "provider": "NASA/JPL-Caltech; Mastcam images NASA/JPL-Caltech/MSSS",
+   "url": "https://mars.nasa.gov/api/v1/raw_image_items/",
+   "used_in": [
+    "rover_images.json"
+   ],
+   "licence": "Raw, unprocessed images released for public use; credit 'NASA/JPL-Caltech' (Navcam) and 'NASA/JPL-Caltech/MSSS' (Mastcam) as given in each item's image_credit field. See https://www.nasa.gov/nasa-brand-center/images-and-media/"
+  },
+  {
+   "name": "Curiosity mission blog (Sols 4219-5069 posts)",
+   "provider": "NASA Science Mission Directorate / MSL science team (science.nasa.gov)",
+   "url": "https://science.nasa.gov/mission/msl-curiosity/",
+   "api_used": "https://science.nasa.gov/wp-json/wp/v2/posts?search=Curiosity%20Blog%20Sols",
+   "used_in": [
+    "science_targets.json"
+   ],
+   "licence": "NASA web content, public; cite individual post URLs (listed per target)."
+  },
+  {
+   "name": "REMS weather feed (MSL)",
+   "provider": "NASA/JPL-Caltech; REMS data by Centro de Astrobiologia (CAB, CSIC-INTA), Spain",
+   "url": "https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json",
+   "used_in": [
+    "weather.json"
+   ],
+   "licence": "CAB disclaimer: provided for outreach purposes only; other use discouraged. Science-grade REMS data is in the PDS (https://pds.nasa.gov)."
+  },
+  {
+   "name": "DONKI Space Weather Database (SEP; FLR attempted)",
+   "provider": "NASA Community Coordinated Modeling Center (CCMC), served via api.nasa.gov",
+   "url": "https://api.nasa.gov/DONKI/SEP",
+   "used_in": [
+    "space_weather.json"
+   ],
+   "licence": "Public NASA API (DEMO_KEY rate-limited); credit NASA CCMC / DONKI (https://kauai.ccmc.gsfc.nasa.gov/DONKI/)."
+  },
+  {
+   "name": "NASA Watches Mars Light Up During Epic Solar Storm (June 2024)",
+   "provider": "NASA",
+   "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasa-watches-mars-light-up-during-epic-solar-storm/",
+   "used_in": [
+    "space_weather.json"
+   ],
+   "licence": "NASA web content, public."
+  },
+  {
+   "name": "Hassler et al. 2014, Mars' Surface Radiation Environment Measured with the Mars Science Laboratory's Curiosity Rover, Science 343(6169):1244797",
+   "provider": "AAAS / MSL RAD team",
+   "url": "https://doi.org/10.1126/science.1244797",
+   "also": [
+    "https://pubmed.ncbi.nlm.nih.gov/24324275/"
+   ],
+   "used_in": [
+    "space_weather.json"
+   ],
+   "licence": "Copyrighted journal article; only the numerical results are cited."
+  },
+  {
+   "name": "Curiosity measures radiation at Martian surface (Christian Science Monitor, 2013-12-09)",
+   "provider": "Christian Science Monitor",
+   "url": "https://www.csmonitor.com/Science/2013/1209/Curiosity-measures-radiation-at-Martian-surface",
+   "used_in": [
+    "space_weather.json"
+   ],
+   "licence": "Secondary press source used only to cross-check 0.64 mSv/day."
+  },
+  {
+   "name": "Guo et al. 2015, Modeling the variations of dose rate measured by RAD during the first MSL Martian year: 2012-2014",
+   "provider": "MSL RAD team (arXiv preprint)",
+   "url": "https://arxiv.org/abs/1507.03473",
+   "used_in": [
+    "space_weather.json"
+   ],
+   "licence": "arXiv preprint; cited for the ~220 uGy/day surface dose rate."
+  }
+ ]
+}

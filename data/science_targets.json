@@ -1,0 +1,297 @@
+{
+ "generated": "2026-11-14",
+ "method": "Names, sols and facts taken from NASA Curiosity mission blog posts (science.nasa.gov, fetched via the site WordPress API and checked by text search). Coordinates = the MSL waypoint with the greatest sol <= the target sol (the rover position during that campaign), so they are the rover parking spot, typically within a few metres of the target, not the exact target.",
+ "boxwork_context": "Boxwork = a network of resistant ridges around low \"hollows\". From orbit it was hypothesised that the ridges formed by cementation from circulating fluids (groundwater), followed by erosion of the softer rock between them (Curiosity blog, Sols 4649-4654).",
+ "boxwork_context_source": "https://science.nasa.gov/blog/curiosity-blog-sols-4649-4654-ridges-hollows-and-nodules-oh-my/",
+ "targets": [
+  {
+   "id": "mammoth-lakes",
+   "name": "Mammoth Lakes",
+   "type": "drill_site",
+   "sol": 4219,
+   "sol_range": [
+    4210,
+    4236
+   ],
+   "rmc": "107_2496",
+   "description": "A drill target inside Gediz Vallis channel, an ancient channel cut into Mount Sharp and filled with rubbly rocks. Getting the drill go-ahead here took more than one try (the blog calls it a \"Mammoth Effort\").",
+   "why_visit": "Rubbly rocks washed into a channel can come from higher up the mountain, so one stop may sample places far beyond walking range.",
+   "sources": [
+    "https://science.nasa.gov/blog/sols-4219-4221-its-a-complex-morning/",
+    "https://science.nasa.gov/blog/sols-4241-4242-we-cant-go-around-itweve-got-to-go-through-it/"
+   ],
+   "waypoint": {
+    "rmc": "107_2496",
+    "site": 107,
+    "drive": 2496,
+    "sol": 4210
+   },
+   "lat": -4.78571901,
+   "lon": 137.4088596,
+   "elev": -3688.18
+  },
+  {
+   "id": "kings-canyon",
+   "name": "Kings Canyon",
+   "type": "drill_site",
+   "sol": 4257,
+   "sol_range": [
+    4255,
+    4282
+   ],
+   "rmc": "108_792",
+   "description": "Curiosity reached the \"Kings Canyon\" drill location on sol 4257 and stayed for weeks, even celebrating its 12th landing anniversary there.",
+   "why_visit": "A well-studied drill site where Curiosity spent about 26 sols: a reference stop to compare fresh rock with the powder Curiosity already analysed.",
+   "sources": [
+    "https://science.nasa.gov/blog/sols-4289-4290-from-discovery-pinnacle-to-kings-canyon-and-back-again/"
+   ],
+   "waypoint": {
+    "rmc": "108_792",
+    "site": 108,
+    "drive": 792,
+    "sol": 4255
+   },
+   "lat": -4.78731872,
+   "lon": 137.4091283,
+   "elev": -3673.32
+  },
+  {
+   "id": "altadena",
+   "name": "Altadena",
+   "type": "drill_site",
+   "sol": 4566,
+   "sol_range": [
+    4560,
+    4572
+   ],
+   "rmc": "116_1944",
+   "description": "Curiosity's 43rd drill hole, made in June 2025 at the edge of the boxwork terrain. Powder went to the CheMin and SAM labs inside the rover to look for minerals, water-bearing compounds and organics.",
+   "why_visit": "The first sample from the boxwork unit: the \"before\" picture for understanding how groundwater changed these rocks.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4563-4565-doing-what-we-do-best/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4568-4569-a-close-look-at-the-altadena-drill-hole-and-tailings/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4689-4694-drill-in-the-boxwork-unit-is-go/"
+   ],
+   "waypoint": {
+    "rmc": "116_1944",
+    "site": 116,
+    "drive": 1944,
+    "sol": 4560
+   },
+   "lat": -4.79984723,
+   "lon": 137.3835414,
+   "elev": -3647.18
+  },
+  {
+   "id": "monte-grande-valle-de-la-luna",
+   "name": "Monte Grande hollow (\"Valle de la Luna\" drill)",
+   "type": "drill_site",
+   "sol": 4690,
+   "sol_range": [
+    4687,
+    4708
+   ],
+   "rmc": "119_1722",
+   "description": "Monte Grande is a large hollow, a low pit between boxwork ridges. Curiosity drilled its 44th hole, \"Valle de la Luna\", in the hollow floor, and later came back to image polygon patterns on a block here.",
+   "why_visit": "Hollows hold the softer rock that wore away; comparing it with the ridge next door is the key experiment for working out how the boxwork formed.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4682-4688-seven-mars-years/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4689-4694-drill-in-the-boxwork-unit-is-go/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4695-4701-searching-for-answers-at-monte-grande/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4743-4749-polygons-in-the-hollow/"
+   ],
+   "waypoint": {
+    "rmc": "119_1722",
+    "site": 119,
+    "drive": 1722,
+    "sol": 4687
+   },
+   "lat": -4.80783916,
+   "lon": 137.3810353,
+   "elev": -3610.43
+  },
+  {
+   "id": "nevado-sajama",
+   "name": "Nevado Sajama (ridge-top drill)",
+   "type": "drill_site",
+   "sol": 4716,
+   "sol_range": [
+    4711,
+    4742
+   ],
+   "second_visit_sol_range": [
+    4789,
+    4811
+   ],
+   "rmc": "120_82",
+   "description": "The 45th drill hole, on top of a boxwork ridge about 10 m from Valle de la Luna. After solar conjunction the rover came back and drilled \"Nevado Sajama 2\" a few centimetres away, treating the powder with the TMAH reagent to hunt for organic molecules.",
+   "why_visit": "Ridges are thought to be rock hardened by minerals from flowing groundwater, which makes them a prime spot to look for preserved chemistry, and they also give a high viewpoint over the hollows.",
+   "related_rmc": [
+    "120_574"
+   ],
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4709-4715-drilling-high-and-low-in-the-boxwork-unit/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4716-4722-drilling-success-at-nevado-sajama/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4723-4730-digging-into-nevado-sajama/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4788-4797-welcome-back-from-conjunction/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4798-4803-back-for-more-science/"
+   ],
+   "waypoint": {
+    "rmc": "120_82",
+    "site": 120,
+    "drive": 82,
+    "sol": 4711
+   },
+   "lat": -4.80800755,
+   "lon": 137.3810041,
+   "elev": -3607.72
+  },
+  {
+   "id": "antofagasta-crater",
+   "name": "Antofagasta crater",
+   "type": "crater",
+   "sol": 4865,
+   "sol_range": [
+    4865,
+    4867
+   ],
+   "rmc": "121_2826",
+   "description": "A small crater about 10 m (33 ft) across. From orbit it may be young, under 50 million years old, so rocks it dug up have only recently been exposed to the radiation at the surface. Curiosity parked on its rim; sand filled the crater floor, so the team decided not to drill there.",
+   "why_visit": "Young craters dig up rock that has been shielded from radiation, the best kind of place to look for preserved organic molecules.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4859-4866-one-small-crater-and-thousands-of-polygons/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4867-4872-sand-fill-in-antofagasta-crater-and-finding-our-next-drill-target/"
+   ],
+   "waypoint": {
+    "rmc": "121_2826",
+    "site": 121,
+    "drive": 2826,
+    "sol": 4865
+   },
+   "lat": -4.81378952,
+   "lon": 137.3810006,
+   "elev": -3574.23
+  },
+  {
+   "id": "campo-marte",
+   "name": "Campo Marte (and the \"Atacama\" block)",
+   "type": "drill_site",
+   "sol": 4900,
+   "sol_range": [
+    4893,
+    4911
+   ],
+   "rmc": "122_462",
+   "description": "The 47th successful drill hole, in layered-sulfate bedrock above the boxwork. Nearby, the first attempt at \"Atacama\" lifted a loose block up with the drill bit and the arm had to be carefully freed, so the team chose this thicker block instead.",
+   "related_rmc": [
+    "122_0"
+   ],
+   "related_note": "Waypoint 122_0 (sol 4868) is the rover position for the sol-4870 workspace where the Atacama block was drilled.",
+   "why_visit": "Samples the sulfate layers above the boxwork. It is also a real lesson in testing whether a rock is anchored before you work on it.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4879-4885-struggle-at-atacama/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4893-4899-drilling-at-campo-marte-and-a-visit-from-the-psyche-spacecraft/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4900-4907-pasadena-we-have-a-drill-sample/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4908-4912-goodbye-campo-marte-its-been-fun/"
+   ],
+   "waypoint": {
+    "rmc": "122_462",
+    "site": 122,
+    "drive": 462,
+    "sol": 4893
+   },
+   "lat": -4.81439703,
+   "lon": 137.3815811,
+   "elev": -3569.59
+  },
+  {
+   "id": "basque-lakes",
+   "name": "Basque Lakes",
+   "type": "drill_site",
+   "sol": 5024,
+   "sol_range": [
+    5021,
+    5042
+   ],
+   "rmc": "125_558",
+   "description": "The 48th drill hole, in the \"Cache Creek\" map quadrangle, drilled around the start of a new Mars year. Its powder went to CheMin for X-ray mineral analysis and to SAM.",
+   "why_visit": "One of the newest samples on the climb, with sand ripples and odd gray pebbles in the same workspace to study.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5029-5035-back-in-the-lab/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/"
+   ],
+   "waypoint": {
+    "rmc": "125_558",
+    "site": 125,
+    "drive": 558,
+    "sol": 5021
+   },
+   "lat": -4.82513971,
+   "lon": 137.3888471,
+   "elev": -3479.91
+  },
+  {
+   "id": "nazca",
+   "name": "Nazca",
+   "type": "drill_site",
+   "sol": 5052,
+   "sol_range": [
+    5045,
+    5068
+   ],
+   "rmc": "125_1326",
+   "description": "The 49th drill hole, in a block packed with disc- and needle-shaped lumps, crystal forms like those at the nearby \"Chiu Chiu\". The size of the crystals hints at the temperature and at how much salty fluid was around when they grew.",
+   "why_visit": "Crystals that grew from salty water preserve a record of ancient water. They are a top spot for a geologist with a hand lens and sample bags.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/"
+   ],
+   "waypoint": {
+    "rmc": "125_1326",
+    "site": 125,
+    "drive": 1326,
+    "sol": 5045
+   },
+   "lat": -4.82466475,
+   "lon": 137.3876138,
+   "elev": -3487.99
+  },
+  {
+   "id": "ayopaya",
+   "name": "Ayopaya (three-ridge junction)",
+   "type": "ridge_junction",
+   "sol": 4623,
+   "sol_range": [
+    4623,
+    4626
+   ],
+   "description": "Three boxwork ridges meet in a \"peace sign\" junction. Curiosity arrived on sol 4623 (8 Aug 2025) and studied contact targets Palmira, Casicasi and Bococo.",
+   "why_visit": "Map which ridge cuts which, to put the groundwater events that cemented the boxwork in order.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4624-4626-a-busy-weekend-at-the-boxwork/"
+   ],
+   "lat": -4.80548,
+   "lon": 137.37992
+  },
+  {
+   "id": "sulfate-contact",
+   "name": "Sulfate unit contact",
+   "type": "contact",
+   "sol": 4832,
+   "sol_range": [
+    4832,
+    4837
+   ],
+   "description": "Southern edge of the boxwork, where the ridges meet the layered sulfate-bearing rock (targets La Calera, Jaruma, Constancia).",
+   "why_visit": "Document how the ridges end against the overlying layers: the upper boundary of the groundwater event.",
+   "sources": [
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4832-4837-driving-the-contact-line/"
+   ],
+   "lat": -4.80954,
+   "lon": 137.3827
+  }
+ ]
+}

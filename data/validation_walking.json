@@ -1,0 +1,173 @@
+{
+ "note": "Suited treadmill walking in NASA's Mark III suit with partial weight offload (EVA Walkback Test and Integrated Suit Test 2). Group means computed from the individual-subject markers in the reports' charts; VO2 is per kg of body mass. Watts = VO2 x body mass x 20.9 J/ml / 60.",
+ "j_per_ml": 20.9,
+ "reports": [
+  {
+   "id": "IST2-TP",
+   "title": "Metabolic Costs and Biomechanics of Inclined Ambulation and Exploration Tasks in a Planetary Suit",
+   "year": 2010,
+   "url": "https://ntrs.nasa.gov/citations/20110003409"
+  },
+  {
+   "id": "ANALOGS-2013",
+   "title": "Using Analogs for Performance Testing of Humans in Spacesuits in Simulated Reduced Gravity",
+   "year": 2013,
+   "url": "https://ntrs.nasa.gov/citations/20140002724"
+  },
+  {
+   "id": "EWT-2008",
+   "title": "Feasibility of Suited 10-km Ambulation \"Walkback\" on the Moon",
+   "year": 2008,
+   "url": "https://ntrs.nasa.gov/citations/20080014853"
+  },
+  {
+   "id": "EWT-2007",
+   "title": "The Walkback Test: A Study to Evaluate Suit and Life Support System Performance Requirements for a 10 Kilometer Traverse in a Planetary Suit",
+   "year": 2007,
+   "url": "https://ntrs.nasa.gov/citations/20070016007"
+  },
+  {
+   "id": "IST-REVIEW-2009",
+   "title": "Metabolic and Subjective Results Review of the Integrated Suit Test Series",
+   "year": 2009,
+   "url": "https://ntrs.nasa.gov/citations/20090007828"
+  }
+ ],
+ "points": [
+  {
+   "id": "P01",
+   "g": 0.17,
+   "v": 0.866,
+   "grade": 0,
+   "body": 81.4,
+   "suit": 121,
+   "vo2": 16.89,
+   "sd": 1.8,
+   "n": 6,
+   "report": "ANALOGS-2013",
+   "page": 28,
+   "figure": "slide 28 chart \"Suited Metabolic Rates\"",
+   "weak": false
+  },
+  {
+   "id": "P02",
+   "g": 0.17,
+   "v": 0.992,
+   "grade": 0,
+   "body": 81.4,
+   "suit": 121,
+   "vo2": 18.6,
+   "sd": 2.36,
+   "n": 6,
+   "report": "ANALOGS-2013",
+   "page": 28,
+   "figure": "slide 28 chart \"Suited Metabolic Rates\"",
+   "weak": false
+  },
+  {
+   "id": "P03",
+   "g": 0.17,
+   "v": 1.121,
+   "grade": 0,
+   "body": 81.4,
+   "suit": 121,
+   "vo2": 20.15,
+   "sd": 3.05,
+   "n": 6,
+   "report": "ANALOGS-2013",
+   "page": 28,
+   "figure": "slide 28 chart \"Suited Metabolic Rates\"",
+   "weak": false
+  },
+  {
+   "id": "P13",
+   "g": 0.38,
+   "v": 1.136,
+   "grade": 0,
+   "body": 81.4,
+   "suit": 121,
+   "vo2": 25.1,
+   "sd": 4.79,
+   "n": 4,
+   "report": "ANALOGS-2013",
+   "page": 28,
+   "figure": "slide 28 chart \"Suited Metabolic Rates\", 3/8 g series",
+   "weak": true
+  },
+  {
+   "id": "P14",
+   "g": 0.38,
+   "v": 1.285,
+   "grade": 0,
+   "body": 81.4,
+   "suit": 121,
+   "vo2": 29.46,
+   "sd": 5.25,
+   "n": 4,
+   "report": "ANALOGS-2013",
+   "page": 28,
+   "figure": "slide 28 chart \"Suited Metabolic Rates\", 3/8 g series",
+   "weak": true
+  },
+  {
+   "id": "P15",
+   "g": 0.38,
+   "v": 1.409,
+   "grade": 0,
+   "body": 81.4,
+   "suit": 121,
+   "vo2": 35.85,
+   "sd": 7.88,
+   "n": 4,
+   "report": "ANALOGS-2013",
+   "page": 28,
+   "figure": "slide 28 chart \"Suited Metabolic Rates\", 3/8 g series",
+   "weak": true
+  },
+  {
+   "id": "P18",
+   "g": 0.17,
+   "v": 0.75,
+   "grade": 10,
+   "body": 80.7,
+   "suit": 121,
+   "vo2": 16.66,
+   "sd": 1.52,
+   "n": 6,
+   "report": "IST2-TP",
+   "page": 54,
+   "figure": "Figure 39 (printed page 39)",
+   "weak": false
+  },
+  {
+   "id": "P19",
+   "g": 0.17,
+   "v": 0.75,
+   "grade": 20,
+   "body": 80.7,
+   "suit": 121,
+   "vo2": 18.49,
+   "sd": 1.94,
+   "n": 6,
+   "report": "IST2-TP",
+   "page": 54,
+   "figure": "Figure 39 (printed page 39)",
+   "weak": false
+  },
+  {
+   "id": "P20",
+   "g": 0.17,
+   "v": 0.75,
+   "grade": 30,
+   "body": 80.7,
+   "suit": 121,
+   "vo2": 20.98,
+   "sd": 2.02,
+   "n": 6,
+   "report": "IST2-TP",
+   "page": 54,
+   "figure": "Figure 39 (printed page 39)",
+   "weak": false
+  }
+ ]
+}

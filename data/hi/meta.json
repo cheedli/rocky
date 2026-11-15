@@ -1,0 +1,29 @@
+{
+ "size_m": 3198.0,
+ "source_dem": "USGS MSL Gale DEM Mosaic 1m v3",
+ "source_img": "USGS MSL Gale HiRISE LRGB 78 quads (sharp COG)",
+ "dem": {
+  "n": 3198,
+  "res_m": 1.0,
+  "tile": 400,
+  "tiles": 8,
+  "offset": -3987.0,
+  "scale": 0.02,
+  "dtype": "uint16 little-endian, row 0 = north"
+ },
+ "img": {
+  "px": 6396,
+  "res_m": 0.5,
+  "tile": 512,
+  "tiles": 13
+ },
+ "far": {
+  "n": 501,
+  "res_m": 64.0,
+  "size_m": 32000.0,
+  "offset": -4625.0,
+  "scale": 0.1,
+  "datum_shift_m": 0.14,
+  "source": "USGS MSL Gale DEM Mosaic 1m v3, 16x overview, shifted to the 1 m datum"
+ }
+}

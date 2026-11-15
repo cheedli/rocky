@@ -1,0 +1,39 @@
+{
+ "w": 1066,
+ "h": 1066,
+ "res": 3.0,
+ "ground_res_x": 2.9894414001196483,
+ "ground_res_y": 3.0,
+ "x_left": 8141883.492786024,
+ "y_top": -283422.075189438,
+ "zmin": -3986.3330078125,
+ "zscale": 0.010570248647836539,
+ "lat_top": -4.781501838588029,
+ "lat_bottom": -4.835454032924281,
+ "lon_left": 137.35849920760398,
+ "lon_right": 137.41245140194025,
+ "crs": "Mars 2000 sphere, equirectangular clon0 (R=3396190 m)",
+ "source": "USGS MSL Gale DEM Mosaic 1m v3 (Parker & Calef / USGS Astrogeology)",
+ "ortho": {
+  "w": 3200,
+  "h": 3200,
+  "file": "ortho.jpg",
+  "source": "USGS MSL Gale HiRISE LRGB 25cm mosaic (HiRISE, UArizona/NASA/JPL)"
+ },
+ "shelter": {
+  "w": 800,
+  "h": 800,
+  "res": 4.0,
+  "scale": "value/2.55 = percent",
+  "n_az": 360,
+  "h_obs": 1.0,
+  "radius_m": 20000,
+  "method": "Guo et al. 2026 JGR Planets e2026JE009704 horizon scan; dose from zenith-angle GCR curve (their Fig. 2)"
+ },
+ "trek": {
+  "file": "trek_ctx.jpg",
+  "layer": "Gale_CTX_BlockAdj_dd",
+  "zoom": 12,
+  "source": "NASA JPL Mars Trek WMTS (trek.nasa.gov), CTX block-adjusted mosaic of Gale"
+ }
+}

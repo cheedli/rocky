@@ -1,0 +1,2777 @@
+[
+ {
+  "rmc": "106_1524",
+  "sol": 4139,
+  "image_sol": 4139,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04139/opgs/edr/ncam/NLB_764939084EDR_F1061524NCAM00278M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4139,
+    "mast_az": 168.236,
+    "mast_el": -6.88851,
+    "lmst": "Sol-04139M14:57:38.887",
+    "date_taken_utc": "2024-03-29T00:04:34.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04139/opgs/edr/ncam/NLB_764938991EDR_F1061524NCAM00278M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4139,
+    "mast_az": 81.6174,
+    "mast_el": -16.0724,
+    "lmst": "Sol-04139M14:56:08.276",
+    "date_taken_utc": "2024-03-29T00:03:01.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04139/opgs/edr/ncam/NLB_764939234EDR_F1061524NCAM00278M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4139,
+    "mast_az": 255.054,
+    "mast_el": -17.4573,
+    "lmst": "Sol-04139M15:00:04.836",
+    "date_taken_utc": "2024-03-29T00:07:04.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "106_1990",
+  "sol": 4148,
+  "image_sol": 4148,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04148/opgs/edr/ncam/NLB_765738893EDR_F1061990NCAM00290M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4148,
+    "mast_az": 129.008,
+    "mast_el": -11.8893,
+    "lmst": "Sol-04148M15:11:15.864",
+    "date_taken_utc": "2024-04-07T06:14:51.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04148/opgs/edr/ncam/NLB_765736913EDR_F1061990NCAM00289M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4148,
+    "mast_az": 40.9195,
+    "mast_el": -15.4174,
+    "lmst": "Sol-04148M14:39:09.039",
+    "date_taken_utc": "2024-04-07T05:41:51.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04148/opgs/edr/ncam/NLB_765739039EDR_F1061990NCAM00290M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4148,
+    "mast_az": 217.739,
+    "mast_el": -18.5491,
+    "lmst": "Sol-04148M15:13:37.929",
+    "date_taken_utc": "2024-04-07T06:17:17.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "106_2692",
+  "sol": 4159,
+  "image_sol": 4159,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04159/opgs/edr/ncam/NLB_766716195EDR_F1062692NCAM00256M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4159,
+    "mast_az": 188.962,
+    "mast_el": -9.72547,
+    "lmst": "Sol-04159M15:23:58.850",
+    "date_taken_utc": "2024-04-18T13:43:22.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04159/opgs/edr/ncam/NLB_766714212EDR_F1062692NCAM00255M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4159,
+    "mast_az": 276.581,
+    "mast_el": -15.7641,
+    "lmst": "Sol-04159M14:51:48.566",
+    "date_taken_utc": "2024-04-18T13:10:19.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04159/opgs/edr/ncam/NLB_766716050EDR_F1062692NCAM00256M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4159,
+    "mast_az": 100.855,
+    "mast_el": -18.0372,
+    "lmst": "Sol-04159M15:21:37.419",
+    "date_taken_utc": "2024-04-18T13:40:57.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04159/mcam/4159MR1057030032101046E01_DXXX.jpg",
+    "instrument": "MAST_RIGHT",
+    "sol": 4159,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2024-04-18T13:14:09.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "107_0",
+  "sol": 4169,
+  "image_sol": 4169,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04169/opgs/edr/ncam/NLB_767602449EDR_F1070000NCAM00268M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4169,
+    "mast_az": 184.0,
+    "mast_el": -1.01988,
+    "lmst": "Sol-04169M14:59:48.796",
+    "date_taken_utc": "2024-04-28T19:54:25.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04169/opgs/edr/ncam/NLB_767604066EDR_F1070000NCAM00269M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4169,
+    "mast_az": 98.7491,
+    "mast_el": -8.35302,
+    "lmst": "Sol-04169M15:26:02.380",
+    "date_taken_utc": "2024-04-28T20:21:22.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04169/opgs/edr/ncam/NLB_767602543EDR_F1070000NCAM00268M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4169,
+    "mast_az": 271.221,
+    "mast_el": -17.6965,
+    "lmst": "Sol-04169M15:01:19.361",
+    "date_taken_utc": "2024-04-28T19:55:58.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "107_924",
+  "sol": 4180,
+  "image_sol": 4180,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04180/opgs/edr/ncam/NLB_768583027EDR_F1070924NCAM00281M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4180,
+    "mast_az": 170.024,
+    "mast_el": -10.1013,
+    "lmst": "Sol-04180M16:05:39.692",
+    "date_taken_utc": "2024-05-10T04:17:32.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04180/opgs/edr/ncam/NLB_768583174EDR_F1070924NCAM00281M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4180,
+    "mast_az": 257.618,
+    "mast_el": -15.8857,
+    "lmst": "Sol-04180M16:08:02.099",
+    "date_taken_utc": "2024-05-10T04:19:58.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04180/opgs/edr/ncam/NLB_768581650EDR_F1070924NCAM00280M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4180,
+    "mast_az": 82.1571,
+    "mast_el": -17.9207,
+    "lmst": "Sol-04180M15:43:19.302",
+    "date_taken_utc": "2024-05-10T03:54:35.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04180/mcam/4180ML1058130001701129E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4180,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2024-05-10T03:59:50.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "107_1952",
+  "sol": 4191,
+  "image_sol": 4191,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04191/opgs/edr/ncam/NLB_769558230EDR_F1071952NCAM00297M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4191,
+    "mast_az": 186.018,
+    "mast_el": -9.84018,
+    "lmst": "Sol-04191M15:44:18.694",
+    "date_taken_utc": "2024-05-21T11:11:03.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04191/opgs/edr/ncam/NLB_769556951EDR_F1071952NCAM00296M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4191,
+    "mast_az": 99.0386,
+    "mast_el": -10.7687,
+    "lmst": "Sol-04191M15:23:34.687",
+    "date_taken_utc": "2024-05-21T10:49:45.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04191/opgs/edr/ncam/NLB_769558355EDR_F1071952NCAM00297M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4191,
+    "mast_az": 306.324,
+    "mast_el": -22.9547,
+    "lmst": "Sol-04191M15:46:21.088",
+    "date_taken_utc": "2024-05-21T11:13:09.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "107_2496",
+  "sol": 4210,
+  "image_sol": 4210,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04210/opgs/edr/ncam/NLB_771231215EDR_F1072496NCAM00260M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4210,
+    "mast_az": 184.004,
+    "mast_el": -4.07975,
+    "lmst": "Sol-04210M12:01:37.674",
+    "date_taken_utc": "2024-06-09T19:54:25.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04210/opgs/edr/ncam/NLB_771231076EDR_F1072496NCAM00260M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4210,
+    "mast_az": 98.1697,
+    "mast_el": -8.54655,
+    "lmst": "Sol-04210M11:59:22.498",
+    "date_taken_utc": "2024-06-09T19:52:06.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04210/opgs/edr/ncam/NLB_771230934EDR_F1072496NCAM00259M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4210,
+    "mast_az": 303.53,
+    "mast_el": -20.379,
+    "lmst": "Sol-04210M11:57:03.656",
+    "date_taken_utc": "2024-06-09T19:49:43.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04210/mcam/4210ML1059740001702280E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4210,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2024-06-09T20:39:44.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "108_222",
+  "sol": 4246,
+  "image_sol": 4246,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04246/opgs/edr/ncam/NLB_774442409EDR_F1080222NCAM00272M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4246,
+    "mast_az": 156.447,
+    "mast_el": -6.52454,
+    "lmst": "Sol-04246M16:10:02.958",
+    "date_taken_utc": "2024-07-16T23:54:49.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04246/opgs/edr/ncam/NLB_774442316EDR_F1080222NCAM00272M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4246,
+    "mast_az": 72.0807,
+    "mast_el": -9.04693,
+    "lmst": "Sol-04246M16:08:32.697",
+    "date_taken_utc": "2024-07-16T23:53:16.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04246/opgs/edr/ncam/NLB_774442562EDR_F1080222NCAM00272M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4246,
+    "mast_az": 242.512,
+    "mast_el": -23.8225,
+    "lmst": "Sol-04246M16:12:31.826",
+    "date_taken_utc": "2024-07-16T23:57:22.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "108_1134",
+  "sol": 4287,
+  "image_sol": 4287,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04287/opgs/edr/ncam/NLB_778080230EDR_F1081134NCAM00286M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4287,
+    "mast_az": 49.9564,
+    "mast_el": -6.93438,
+    "lmst": "Sol-04287M15:38:45.642",
+    "date_taken_utc": "2024-08-28T02:25:45.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04287/opgs/edr/ncam/NLB_778080317EDR_F1081134NCAM00286M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4287,
+    "mast_az": 134.245,
+    "mast_el": -13.2239,
+    "lmst": "Sol-04287M15:40:09.889",
+    "date_taken_utc": "2024-08-28T02:27:11.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04287/opgs/edr/ncam/NLB_778081485EDR_F1081134NCAM00287M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4287,
+    "mast_az": 325.081,
+    "mast_el": -19.0935,
+    "lmst": "Sol-04287M15:59:06.859",
+    "date_taken_utc": "2024-08-28T02:46:39.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "108_2018",
+  "sol": 4296,
+  "image_sol": 4296,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04296/opgs/edr/ncam/NLB_778873157EDR_F1082018NCAM00299M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4296,
+    "mast_az": 159.839,
+    "mast_el": -7.89262,
+    "lmst": "Sol-04296M14:00:43.960",
+    "date_taken_utc": "2024-09-06T06:41:18.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04296/opgs/edr/ncam/NLB_778872090EDR_F1082018NCAM00298M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4296,
+    "mast_az": 72.8153,
+    "mast_el": -14.3025,
+    "lmst": "Sol-04296M13:43:25.678",
+    "date_taken_utc": "2024-09-06T06:23:32.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04296/opgs/edr/ncam/NLB_778873303EDR_F1082018NCAM00299M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4296,
+    "mast_az": 247.403,
+    "mast_el": -19.3519,
+    "lmst": "Sol-04296M14:03:06.264",
+    "date_taken_utc": "2024-09-06T06:43:45.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04296/mcam/4296ML1063630001605223E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4296,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2024-09-06T06:28:49.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "108_2792",
+  "sol": 4306,
+  "image_sol": 4306,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04306/opgs/edr/ncam/NLB_779759083EDR_F1082792NCAM00261M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4306,
+    "mast_az": 101.676,
+    "mast_el": -7.16948,
+    "lmst": "Sol-04306M13:31:15.443",
+    "date_taken_utc": "2024-09-16T12:46:54.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04306/opgs/edr/ncam/NLB_779759004EDR_F1082792NCAM00261M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4306,
+    "mast_az": 14.7996,
+    "mast_el": -16.2293,
+    "lmst": "Sol-04306M13:29:58.389",
+    "date_taken_utc": "2024-09-16T12:45:35.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04306/opgs/edr/ncam/NLB_779759669EDR_F1082792NCAM00262M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4306,
+    "mast_az": 188.899,
+    "mast_el": -17.2778,
+    "lmst": "Sol-04306M13:40:45.058",
+    "date_taken_utc": "2024-09-16T12:56:39.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04306/mcam/4306ML1064200001605826E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4306,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2024-09-16T12:48:34.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "109_540",
+  "sol": 4316,
+  "image_sol": 4316,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04316/opgs/edr/ncam/NLB_780653429EDR_F1090540NCAM00276M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4316,
+    "mast_az": 59.4562,
+    "mast_el": -6.21991,
+    "lmst": "Sol-04316M15:18:20.795",
+    "date_taken_utc": "2024-09-26T21:12:48.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04316/opgs/edr/ncam/NLB_780653522EDR_F1090540NCAM00276M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4316,
+    "mast_az": 143.92,
+    "mast_el": -11.6754,
+    "lmst": "Sol-04316M15:19:51.355",
+    "date_taken_utc": "2024-09-26T21:14:21.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04316/opgs/edr/ncam/NLB_780654053EDR_F1090540NCAM00277M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4316,
+    "mast_az": 232.269,
+    "mast_el": -27.2689,
+    "lmst": "Sol-04316M15:28:27.856",
+    "date_taken_utc": "2024-09-26T21:23:12.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "109_1494",
+  "sol": 4326,
+  "image_sol": 4326,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04326/opgs/edr/ncam/NLB_781532972EDR_F1091494NCAM00289M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4326,
+    "mast_az": 109.18,
+    "mast_el": -5.56315,
+    "lmst": "Sol-04326M13:05:18.635",
+    "date_taken_utc": "2024-10-07T01:31:59.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04326/opgs/edr/ncam/NLB_781534173EDR_F1091494NCAM00290M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4326,
+    "mast_az": 22.7364,
+    "mast_el": -14.8384,
+    "lmst": "Sol-04326M13:24:47.537",
+    "date_taken_utc": "2024-10-07T01:52:00.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04326/opgs/edr/ncam/NLB_781533999EDR_F1091494NCAM00290M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4326,
+    "mast_az": 196.019,
+    "mast_el": -18.6957,
+    "lmst": "Sol-04326M13:21:57.770",
+    "date_taken_utc": "2024-10-07T01:49:06.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "109_2706",
+  "sol": 4334,
+  "image_sol": 4334,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04334/opgs/edr/ncam/NLB_782251980EDR_F1092706NCAM00251M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4334,
+    "mast_az": 201.356,
+    "mast_el": -12.3007,
+    "lmst": "Sol-04334M15:28:15.908",
+    "date_taken_utc": "2024-10-15T09:15:34.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04334/opgs/edr/ncam/NLB_782252866EDR_F1092706NCAM00252M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4334,
+    "mast_az": 289.597,
+    "mast_el": -16.9417,
+    "lmst": "Sol-04334M15:42:38.254",
+    "date_taken_utc": "2024-10-15T09:30:20.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04334/opgs/edr/ncam/NLB_782251834EDR_F1092706NCAM00251M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4334,
+    "mast_az": 112.651,
+    "mast_el": -16.9948,
+    "lmst": "Sol-04334M15:25:54.134",
+    "date_taken_utc": "2024-10-15T09:13:08.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "110_840",
+  "sol": 4346,
+  "image_sol": 4346,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04346/opgs/edr/ncam/NLB_783313554EDR_F1100840NCAM00267M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4346,
+    "mast_az": 199.309,
+    "mast_el": -10.7304,
+    "lmst": "Sol-04346M14:27:56.724",
+    "date_taken_utc": "2024-10-27T16:08:38.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04346/opgs/edr/ncam/NLB_783313381EDR_F1100840NCAM00267M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4346,
+    "mast_az": 111.169,
+    "mast_el": -16.3315,
+    "lmst": "Sol-04346M14:25:08.035",
+    "date_taken_utc": "2024-10-27T16:05:45.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04346/opgs/edr/ncam/NLB_783314443EDR_F1100840NCAM00268M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4346,
+    "mast_az": 287.159,
+    "mast_el": -17.4994,
+    "lmst": "Sol-04346M14:42:21.429",
+    "date_taken_utc": "2024-10-27T16:23:27.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "111_348",
+  "sol": 4357,
+  "image_sol": 4357,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04357/opgs/edr/ncam/NLB_784293768EDR_F1110348NCAM00280M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4357,
+    "mast_az": 98.6196,
+    "mast_el": -12.321,
+    "lmst": "Sol-04357M15:27:56.018",
+    "date_taken_utc": "2024-11-08T00:25:44.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04357/opgs/edr/ncam/NLB_784293906EDR_F1110348NCAM00280M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4357,
+    "mast_az": 187.02,
+    "mast_el": -16.3653,
+    "lmst": "Sol-04357M15:30:10.810",
+    "date_taken_utc": "2024-11-08T00:28:03.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04357/opgs/edr/ncam/NLB_784292775EDR_F1110348NCAM00279M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4357,
+    "mast_az": 9.85771,
+    "mast_el": -17.587,
+    "lmst": "Sol-04357M15:11:50.212",
+    "date_taken_utc": "2024-11-08T00:09:12.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "111_1116",
+  "sol": 4369,
+  "image_sol": 4369,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04369/opgs/edr/ncam/NLB_785351045EDR_F1111116NCAM00292M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4369,
+    "mast_az": 138.86,
+    "mast_el": -13.228,
+    "lmst": "Sol-04369M13:17:54.863",
+    "date_taken_utc": "2024-11-20T06:07:12.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04369/opgs/edr/ncam/NLB_785350013EDR_F1111116NCAM00291M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4369,
+    "mast_az": 50.0507,
+    "mast_el": -16.9453,
+    "lmst": "Sol-04369M13:01:10.922",
+    "date_taken_utc": "2024-11-20T05:50:00.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04369/opgs/edr/ncam/NLB_785351190EDR_F1111116NCAM00292M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4369,
+    "mast_az": 227.554,
+    "mast_el": -17.0486,
+    "lmst": "Sol-04369M13:20:15.913",
+    "date_taken_utc": "2024-11-20T06:09:36.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "111_2386",
+  "sol": 4384,
+  "image_sol": 4384,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04384/opgs/edr/ncam/NLB_786692935EDR_F1112386NCAM00256M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4384,
+    "mast_az": 99.3849,
+    "mast_el": -9.47549,
+    "lmst": "Sol-04384M16:04:34.265",
+    "date_taken_utc": "2024-12-05T18:52:14.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04384/opgs/edr/ncam/NLB_786692842EDR_F1112386NCAM00256M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4384,
+    "mast_az": 11.9506,
+    "mast_el": -15.4846,
+    "lmst": "Sol-04384M16:03:03.953",
+    "date_taken_utc": "2024-12-05T18:50:42.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04384/opgs/edr/ncam/NLB_786694038EDR_F1112386NCAM00257M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4384,
+    "mast_az": 187.492,
+    "mast_el": -18.2856,
+    "lmst": "Sol-04384M16:22:28.022",
+    "date_taken_utc": "2024-12-05T19:10:38.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "112_228",
+  "sol": 4394,
+  "image_sol": 4394,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04394/opgs/edr/ncam/NLB_787577699EDR_F1120228NCAM00270M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4394,
+    "mast_az": 105.795,
+    "mast_el": -4.14672,
+    "lmst": "Sol-04394M15:16:14.266",
+    "date_taken_utc": "2024-12-16T00:38:27.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04394/opgs/edr/ncam/NLB_787577845EDR_F1120228NCAM00270M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4394,
+    "mast_az": 191.731,
+    "mast_el": -13.5883,
+    "lmst": "Sol-04394M15:18:36.332",
+    "date_taken_utc": "2024-12-16T00:40:53.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04394/opgs/edr/ncam/NLB_787576697EDR_F1120228NCAM00269M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4394,
+    "mast_az": 19.481,
+    "mast_el": -19.5471,
+    "lmst": "Sol-04394M14:59:59.081",
+    "date_taken_utc": "2024-12-16T00:21:45.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "112_1014",
+  "sol": 4417,
+  "image_sol": 4417,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04417/opgs/edr/ncam/NLB_789616355EDR_F1121014NCAM00282M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4417,
+    "mast_az": 196.935,
+    "mast_el": -14.5578,
+    "lmst": "Sol-04417M14:25:02.875",
+    "date_taken_utc": "2025-01-08T14:56:22.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04417/opgs/edr/ncam/NLB_789615240EDR_F1121014NCAM00281M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4417,
+    "mast_az": 107.634,
+    "mast_el": -16.503,
+    "lmst": "Sol-04417M14:06:58.005",
+    "date_taken_utc": "2025-01-08T14:37:47.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04417/opgs/edr/ncam/NLB_789616448EDR_F1121014NCAM00282M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4417,
+    "mast_az": 286.111,
+    "mast_el": -17.5374,
+    "lmst": "Sol-04417M14:26:34.011",
+    "date_taken_utc": "2025-01-08T14:57:56.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04417/mcam/4417ML1069510000110283E02_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4417,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2025-01-08T14:39:01.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "112_2394",
+  "sol": 4437,
+  "image_sol": 4437,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04437/opgs/edr/ncam/NLB_791394075EDR_F1122394NCAM00250M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4437,
+    "mast_az": 144.688,
+    "mast_el": -9.63746,
+    "lmst": "Sol-04437M15:01:15.686",
+    "date_taken_utc": "2025-01-29T04:45:19.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04437/opgs/edr/ncam/NLB_791394260EDR_F1122394NCAM00250M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4437,
+    "mast_az": 263.286,
+    "mast_el": -14.6154,
+    "lmst": "Sol-04437M15:04:15.027",
+    "date_taken_utc": "2025-01-29T04:48:24.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04437/opgs/edr/ncam/NLB_791392881EDR_F1122394NCAM00299M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4437,
+    "mast_az": 56.9109,
+    "mast_el": -16.9585,
+    "lmst": "Sol-04437M14:41:53.061",
+    "date_taken_utc": "2025-01-29T04:25:25.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "113_306",
+  "sol": 4446,
+  "image_sol": 4446,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04446/opgs/edr/ncam/NLB_792186288EDR_F1130306NCAM00264M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4446,
+    "mast_az": 91.0008,
+    "mast_el": -11.3706,
+    "lmst": "Sol-04446M13:11:39.128",
+    "date_taken_utc": "2025-02-07T08:48:59.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04446/opgs/edr/ncam/NLB_792186367EDR_F1130306NCAM00264M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4446,
+    "mast_az": 179.309,
+    "mast_el": -16.0989,
+    "lmst": "Sol-04446M13:12:56.132",
+    "date_taken_utc": "2025-02-07T08:50:18.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04446/opgs/edr/ncam/NLB_792185333EDR_F1130306NCAM00263M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4446,
+    "mast_az": 2.71604,
+    "mast_el": -17.7701,
+    "lmst": "Sol-04446M12:56:10.244",
+    "date_taken_utc": "2025-02-07T08:33:05.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "113_1440",
+  "sol": 4456,
+  "image_sol": 4456,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04456/opgs/edr/ncam/NLB_793083115EDR_F1131440NCAM00276M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4456,
+    "mast_az": 83.6581,
+    "mast_el": -10.6693,
+    "lmst": "Sol-04456M15:38:59.343",
+    "date_taken_utc": "2025-02-17T17:56:15.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04456/opgs/edr/ncam/NLB_793082112EDR_F1131440NCAM00275M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4456,
+    "mast_az": 354.907,
+    "mast_el": -11.5012,
+    "lmst": "Sol-04456M15:22:43.853",
+    "date_taken_utc": "2025-02-17T17:39:33.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04456/opgs/edr/ncam/NLB_793082049EDR_F1131440NCAM00275M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4456,
+    "mast_az": 294.583,
+    "mast_el": -17.2405,
+    "lmst": "Sol-04456M15:21:42.535",
+    "date_taken_utc": "2025-02-17T17:38:30.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "113_2670",
+  "sol": 4469,
+  "image_sol": 4469,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04469/opgs/edr/ncam/NLB_794235693EDR_F1132670NCAM00291M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4469,
+    "mast_az": 145.576,
+    "mast_el": -7.24455,
+    "lmst": "Sol-04469M15:14:50.253",
+    "date_taken_utc": "2025-03-03T02:06:04.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04469/opgs/edr/ncam/NLB_794234923EDR_F1132670NCAM00290M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4469,
+    "mast_az": 58.5887,
+    "mast_el": -16.0621,
+    "lmst": "Sol-04469M15:02:21.035",
+    "date_taken_utc": "2025-03-03T01:53:14.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04469/opgs/edr/ncam/NLB_794235844EDR_F1132670NCAM00291M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4469,
+    "mast_az": 232.501,
+    "mast_el": -17.472,
+    "lmst": "Sol-04469M15:17:16.964",
+    "date_taken_utc": "2025-03-03T02:08:35.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "114_534",
+  "sol": 4480,
+  "image_sol": 4480,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04480/opgs/edr/ncam/NLB_795211992EDR_F1140534NCAM00256M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4480,
+    "mast_az": 120.369,
+    "mast_el": -12.231,
+    "lmst": "Sol-04480M15:11:16.662",
+    "date_taken_utc": "2025-03-14T09:17:52.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04480/opgs/edr/ncam/NLB_795211898EDR_F1140534NCAM00256M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4480,
+    "mast_az": 32.1329,
+    "mast_el": -16.267,
+    "lmst": "Sol-04480M15:09:45.764",
+    "date_taken_utc": "2025-03-14T09:16:19.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04480/opgs/edr/ncam/NLB_795212145EDR_F1140534NCAM00256M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4480,
+    "mast_az": 209.221,
+    "mast_el": -17.6411,
+    "lmst": "Sol-04480M15:13:45.782",
+    "date_taken_utc": "2025-03-14T09:20:26.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04480/mcam/4480ML1072550000112473E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4480,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2025-03-14T09:00:01.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "114_1380",
+  "sol": 4489,
+  "image_sol": 4489,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04489/opgs/edr/ncam/NLB_796013081EDR_F1141380NCAM00270M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4489,
+    "mast_az": 202.518,
+    "mast_el": -9.07944,
+    "lmst": "Sol-04489M15:45:39.878",
+    "date_taken_utc": "2025-03-23T15:49:30.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04489/opgs/edr/ncam/NLB_796012936EDR_F1141380NCAM00270M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4489,
+    "mast_az": 114.866,
+    "mast_el": -15.4161,
+    "lmst": "Sol-04489M15:43:18.179",
+    "date_taken_utc": "2025-03-23T15:47:04.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04489/opgs/edr/ncam/NLB_796013175EDR_F1141380NCAM00270M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4489,
+    "mast_az": 290.193,
+    "mast_el": -18.4385,
+    "lmst": "Sol-04489M15:47:10.982",
+    "date_taken_utc": "2025-03-23T15:51:03.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "114_2472",
+  "sol": 4500,
+  "image_sol": 4500,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04500/opgs/edr/ncam/NLB_796990164EDR_F1142472NCAM00285M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4500,
+    "mast_az": 116.495,
+    "mast_el": -6.48309,
+    "lmst": "Sol-04500M15:54:48.745",
+    "date_taken_utc": "2025-04-03T23:14:21.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04500/opgs/edr/ncam/NLB_796990311EDR_F1142472NCAM00285M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4500,
+    "mast_az": 203.431,
+    "mast_el": -14.3734,
+    "lmst": "Sol-04500M15:57:12.497",
+    "date_taken_utc": "2025-04-03T23:16:49.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04500/opgs/edr/ncam/NLB_796988100EDR_F1142472NCAM00284M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4500,
+    "mast_az": 29.6211,
+    "mast_el": -19.0489,
+    "lmst": "Sol-04500M15:21:20.323",
+    "date_taken_utc": "2025-04-03T22:39:58.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "115_816",
+  "sol": 4510,
+  "image_sol": 4510,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04510/opgs/edr/ncam/NLB_797870398EDR_F1150816NCAM00296M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4510,
+    "mast_az": 183.471,
+    "mast_el": -2.17066,
+    "lmst": "Sol-04510M13:53:00.141",
+    "date_taken_utc": "2025-04-14T03:45:04.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04510/opgs/edr/ncam/NLB_797870539EDR_F1150816NCAM00296M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4510,
+    "mast_az": 268.801,
+    "mast_el": -13.4792,
+    "lmst": "Sol-04510M13:55:17.505",
+    "date_taken_utc": "2025-04-14T03:47:25.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04510/opgs/edr/ncam/NLB_797870259EDR_F1150816NCAM00296M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4510,
+    "mast_az": 96.5967,
+    "mast_el": -15.533,
+    "lmst": "Sol-04510M13:50:44.554",
+    "date_taken_utc": "2025-04-14T03:42:45.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04510/mcam/4510ML1074220001800122E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4510,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2025-04-14T03:36:27.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "115_1608",
+  "sol": 4518,
+  "image_sol": 4518,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04518/opgs/edr/ncam/NLB_798589549EDR_F1151608NCAM00257M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4518,
+    "mast_az": 197.023,
+    "mast_el": -3.3216,
+    "lmst": "Sol-04518M16:18:16.467",
+    "date_taken_utc": "2025-04-22T11:31:02.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04518/opgs/edr/ncam/NLB_798589397EDR_F1151608NCAM00257M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4518,
+    "mast_az": 110.797,
+    "mast_el": -15.8749,
+    "lmst": "Sol-04518M16:15:48.083",
+    "date_taken_utc": "2025-04-22T11:28:30.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04518/opgs/edr/ncam/NLB_798589636EDR_F1151608NCAM00257M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4518,
+    "mast_az": 282.645,
+    "mast_el": -17.1382,
+    "lmst": "Sol-04518M16:19:41.264",
+    "date_taken_utc": "2025-04-22T11:32:29.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "115_2616",
+  "sol": 4532,
+  "image_sol": 4532,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04532/opgs/edr/ncam/NLB_799831155EDR_F1152616NCAM00276M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4532,
+    "mast_az": 92.3355,
+    "mast_el": -9.09209,
+    "lmst": "Sol-04532M15:58:13.991",
+    "date_taken_utc": "2025-05-06T20:24:40.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04532/opgs/edr/ncam/NLB_799832286EDR_F1152616NCAM00277M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4532,
+    "mast_az": 179.628,
+    "mast_el": -14.5101,
+    "lmst": "Sol-04532M16:16:34.482",
+    "date_taken_utc": "2025-05-06T20:43:31.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04532/opgs/edr/ncam/NLB_799831061EDR_F1152616NCAM00276M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4532,
+    "mast_az": 4.36844,
+    "mast_el": -19.1692,
+    "lmst": "Sol-04532M15:56:42.231",
+    "date_taken_utc": "2025-05-06T20:23:06.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "116_414",
+  "sol": 4541,
+  "image_sol": 4541,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04541/opgs/edr/ncam/NLB_800624472EDR_F1160414NCAM00289M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4541,
+    "mast_az": 131.668,
+    "mast_el": -11.0573,
+    "lmst": "Sol-04541M14:26:32.061",
+    "date_taken_utc": "2025-05-16T00:46:44.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04541/opgs/edr/ncam/NLB_800623582EDR_F1160414NCAM00288M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4541,
+    "mast_az": 43.5447,
+    "mast_el": -16.5897,
+    "lmst": "Sol-04541M14:12:06.231",
+    "date_taken_utc": "2025-05-16T00:31:54.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04541/opgs/edr/ncam/NLB_800624632EDR_F1160414NCAM00289M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4541,
+    "mast_az": 219.765,
+    "mast_el": -17.2672,
+    "lmst": "Sol-04541M14:29:07.598",
+    "date_taken_utc": "2025-05-16T00:49:24.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "116_1806",
+  "sol": 4554,
+  "image_sol": 4554,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04554/opgs/edr/ncam/NLB_801783699EDR_F1161806NCAM00258M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4554,
+    "mast_az": 246.043,
+    "mast_el": -8.89916,
+    "lmst": "Sol-04554M15:50:13.713",
+    "date_taken_utc": "2025-05-29T10:47:22.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04554/opgs/edr/ncam/NLB_801783552EDR_F1161806NCAM00258M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4554,
+    "mast_az": 158.784,
+    "mast_el": -14.7188,
+    "lmst": "Sol-04554M15:47:51.375",
+    "date_taken_utc": "2025-05-29T10:44:56.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04554/opgs/edr/ncam/NLB_801782242EDR_F1161806NCAM00257M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4554,
+    "mast_az": 333.757,
+    "mast_el": -18.9683,
+    "lmst": "Sol-04554M15:26:36.396",
+    "date_taken_utc": "2025-05-29T10:23:05.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "116_2562",
+  "sol": 4573,
+  "image_sol": 4573,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04573/opgs/edr/ncam/NLB_803472163EDR_F1162562NCAM00271M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4573,
+    "mast_az": 160.738,
+    "mast_el": -12.5509,
+    "lmst": "Sol-04573M16:18:37.621",
+    "date_taken_utc": "2025-06-17T23:48:42.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04573/opgs/edr/ncam/NLB_803471112EDR_F1162562NCAM00270M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4573,
+    "mast_az": 72.2225,
+    "mast_el": -16.4274,
+    "lmst": "Sol-04573M16:01:34.749",
+    "date_taken_utc": "2025-06-17T23:31:11.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04573/opgs/edr/ncam/NLB_803472314EDR_F1162562NCAM00271M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4573,
+    "mast_az": 249.368,
+    "mast_el": -17.5068,
+    "lmst": "Sol-04573M16:21:05.076",
+    "date_taken_utc": "2025-06-17T23:51:14.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "117_492",
+  "sol": 4582,
+  "image_sol": 4582,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04582/opgs/edr/ncam/NLB_804266932EDR_F1170492NCAM00283M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4582,
+    "mast_az": 133.892,
+    "mast_el": -13.842,
+    "lmst": "Sol-04582M15:10:29.710",
+    "date_taken_utc": "2025-06-27T04:34:59.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04582/opgs/edr/ncam/NLB_804267085EDR_F1170492NCAM00283M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4582,
+    "mast_az": 222.672,
+    "mast_el": -16.4924,
+    "lmst": "Sol-04582M15:12:58.593",
+    "date_taken_utc": "2025-06-27T04:37:32.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04582/opgs/edr/ncam/NLB_804266839EDR_F1170492NCAM00282M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4582,
+    "mast_az": 44.7468,
+    "mast_el": -17.5076,
+    "lmst": "Sol-04582M15:08:59.457",
+    "date_taken_utc": "2025-06-27T04:33:26.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "117_1434",
+  "sol": 4594,
+  "image_sol": 4594,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04594/opgs/edr/ncam/NLB_805327621EDR_F1171434NCAM00298M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4594,
+    "mast_az": 157.12,
+    "mast_el": -10.3387,
+    "lmst": "Sol-04594M13:55:48.826",
+    "date_taken_utc": "2025-07-09T11:13:18.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04594/opgs/edr/ncam/NLB_805327767EDR_F1171434NCAM00298M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4594,
+    "mast_az": 244.877,
+    "mast_el": -15.2064,
+    "lmst": "Sol-04594M13:58:10.924",
+    "date_taken_utc": "2025-07-09T11:15:44.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04594/opgs/edr/ncam/NLB_805327101EDR_F1171434NCAM00297M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4594,
+    "mast_az": 69.0149,
+    "mast_el": -18.5881,
+    "lmst": "Sol-04594M13:47:22.507",
+    "date_taken_utc": "2025-07-09T11:04:38.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04594/mcam/4594ML1079150001803024E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4594,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2025-07-09T11:06:21.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "117_2490",
+  "sol": 4602,
+  "image_sol": 4602,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04602/opgs/edr/ncam/NLB_806042766EDR_F1172490NCAM00261M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4602,
+    "mast_az": 171.437,
+    "mast_el": -10.1104,
+    "lmst": "Sol-04602M15:16:06.631",
+    "date_taken_utc": "2025-07-17T17:52:30.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04602/opgs/edr/ncam/NLB_806042674EDR_F1172490NCAM00261M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4602,
+    "mast_az": 83.6534,
+    "mast_el": -16.4603,
+    "lmst": "Sol-04602M15:14:36.466",
+    "date_taken_utc": "2025-07-17T17:50:57.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04602/opgs/edr/ncam/NLB_806042912EDR_F1172490NCAM00261M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4602,
+    "mast_az": 259.244,
+    "mast_el": -17.4719,
+    "lmst": "Sol-04602M15:18:28.633",
+    "date_taken_utc": "2025-07-17T17:54:56.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "118_0",
+  "sol": 4614,
+  "image_sol": 4614,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04614/opgs/edr/ncam/NLB_807111723EDR_F1180000NCAM00273M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4614,
+    "mast_az": 194.912,
+    "mast_el": -10.4581,
+    "lmst": "Sol-04614M16:15:32.284",
+    "date_taken_utc": "2025-07-30T02:48:37.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04614/opgs/edr/ncam/NLB_807111815EDR_F1180000NCAM00273M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4614,
+    "mast_az": 282.45,
+    "mast_el": -16.4418,
+    "lmst": "Sol-04614M16:17:02.511",
+    "date_taken_utc": "2025-07-30T02:50:09.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04614/opgs/edr/ncam/NLB_807110535EDR_F1180000NCAM00272M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4614,
+    "mast_az": 106.651,
+    "mast_el": -17.3692,
+    "lmst": "Sol-04614M15:56:16.691",
+    "date_taken_utc": "2025-07-30T02:28:49.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "118_762",
+  "sol": 4625,
+  "image_sol": 4625,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04625/opgs/edr/ncam/NLB_808084929EDR_F1180762NCAM00290M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4625,
+    "mast_az": 184.916,
+    "mast_el": -7.30341,
+    "lmst": "Sol-04625M15:21:48.500",
+    "date_taken_utc": "2025-08-10T09:08:52.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04625/opgs/edr/ncam/NLB_808084776EDR_F1180762NCAM00290M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4625,
+    "mast_az": 98.0558,
+    "mast_el": -15.5446,
+    "lmst": "Sol-04625M15:19:19.396",
+    "date_taken_utc": "2025-08-10T09:06:19.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04625/opgs/edr/ncam/NLB_808085022EDR_F1180762NCAM00290M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4625,
+    "mast_az": 271.94,
+    "mast_el": -18.1486,
+    "lmst": "Sol-04625M15:23:19.366",
+    "date_taken_utc": "2025-08-10T09:10:25.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "118_1608",
+  "sol": 4634,
+  "image_sol": 4634,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04634/opgs/edr/ncam/NLB_808882905EDR_F1181608NCAM00251M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4634,
+    "mast_az": 174.416,
+    "mast_el": 0.178929,
+    "lmst": "Sol-04634M15:05:41.376",
+    "date_taken_utc": "2025-08-19T14:48:35.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04634/opgs/edr/ncam/NLB_808884327EDR_F1181608NCAM00252M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4634,
+    "mast_az": 89.5842,
+    "mast_el": -12.7602,
+    "lmst": "Sol-04634M15:28:45.460",
+    "date_taken_utc": "2025-08-19T15:12:18.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04634/opgs/edr/ncam/NLB_808883051EDR_F1181608NCAM00251M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4634,
+    "mast_az": 259.176,
+    "mast_el": -19.7388,
+    "lmst": "Sol-04634M15:08:03.488",
+    "date_taken_utc": "2025-08-19T14:51:02.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "118_2028",
+  "sol": 4643,
+  "image_sol": 4643,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04643/opgs/edr/ncam/NLB_809681009EDR_F1182028NCAM00264M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4643,
+    "mast_az": 25.8351,
+    "mast_el": -9.23576,
+    "lmst": "Sol-04643M14:51:39.233",
+    "date_taken_utc": "2025-08-28T20:30:27.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04643/opgs/edr/ncam/NLB_809681836EDR_F1182028NCAM00265M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4643,
+    "mast_az": 301.086,
+    "mast_el": -13.9924,
+    "lmst": "Sol-04643M15:05:04.497",
+    "date_taken_utc": "2025-08-28T20:44:15.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04643/opgs/edr/ncam/NLB_809681743EDR_F1182028NCAM00265M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4643,
+    "mast_az": 212.669,
+    "mast_el": -24.1834,
+    "lmst": "Sol-04643M15:03:33.633",
+    "date_taken_utc": "2025-08-28T20:42:41.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "118_2742",
+  "sol": 4660,
+  "image_sol": 4660,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04660/opgs/edr/ncam/NLB_811180117EDR_F1182742NCAM00280M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4660,
+    "mast_az": 217.018,
+    "mast_el": -8.83699,
+    "lmst": "Sol-04660M12:08:31.424",
+    "date_taken_utc": "2025-09-15T04:55:50.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04660/opgs/edr/ncam/NLB_811178917EDR_F1182742NCAM00279M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4660,
+    "mast_az": 304.684,
+    "mast_el": -16.8432,
+    "lmst": "Sol-04660M11:49:04.059",
+    "date_taken_utc": "2025-09-15T04:35:50.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04660/opgs/edr/ncam/NLB_811179971EDR_F1182742NCAM00280M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4660,
+    "mast_az": 129.407,
+    "mast_el": -16.8457,
+    "lmst": "Sol-04660M12:06:09.674",
+    "date_taken_utc": "2025-09-15T04:53:24.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "119_198",
+  "sol": 4669,
+  "image_sol": 4669,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04669/opgs/edr/ncam/NLB_811980095EDR_F1190198NCAM00292M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4669,
+    "mast_az": 293.003,
+    "mast_el": -10.7466,
+    "lmst": "Sol-04669M12:24:52.761",
+    "date_taken_utc": "2025-09-24T11:08:55.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04669/opgs/edr/ncam/NLB_811979360EDR_F1190198NCAM00291M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4669,
+    "mast_az": 20.2262,
+    "mast_el": -16.0317,
+    "lmst": "Sol-04669M12:12:57.266",
+    "date_taken_utc": "2025-09-24T10:56:40.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04669/opgs/edr/ncam/NLB_811980009EDR_F1190198NCAM00292M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4669,
+    "mast_az": 204.556,
+    "mast_el": -20.7923,
+    "lmst": "Sol-04669M12:23:29.340",
+    "date_taken_utc": "2025-09-24T11:07:29.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04669/mcam/4669ML1083780001506260E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4669,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2025-09-24T10:59:01.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "119_1344",
+  "sol": 4680,
+  "image_sol": 4680,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04680/opgs/edr/ncam/NLB_812960571EDR_F1191344NCAM00252M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4680,
+    "mast_az": 54.1055,
+    "mast_el": -8.37135,
+    "lmst": "Sol-04680M13:29:05.168",
+    "date_taken_utc": "2025-10-05T19:30:21.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04680/opgs/edr/ncam/NLB_812961537EDR_F1191344NCAM00253M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4680,
+    "mast_az": 141.318,
+    "mast_el": -14.9798,
+    "lmst": "Sol-04680M13:44:45.273",
+    "date_taken_utc": "2025-10-05T19:46:27.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04680/opgs/edr/ncam/NLB_812960478EDR_F1191344NCAM00252M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4680,
+    "mast_az": 326.653,
+    "mast_el": -18.6749,
+    "lmst": "Sol-04680M13:27:34.031",
+    "date_taken_utc": "2025-10-05T19:28:48.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "120_232",
+  "sol": 4741,
+  "image_sol": 4741,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04741/opgs/edr/ncam/NLB_818377381EDR_F1200232NCAM00269M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4741,
+    "mast_az": 188.0,
+    "mast_el": -5.11072,
+    "lmst": "Sol-04741M13:54:34.144",
+    "date_taken_utc": "2025-12-07T12:11:22.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04741/opgs/edr/ncam/NLB_818377474EDR_F1200232NCAM00269M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4741,
+    "mast_az": 273.851,
+    "mast_el": -14.0049,
+    "lmst": "Sol-04741M13:56:04.944",
+    "date_taken_utc": "2025-12-07T12:12:55.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04741/opgs/edr/ncam/NLB_818377235EDR_F1200232NCAM00269M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4741,
+    "mast_az": 101.265,
+    "mast_el": -19.3104,
+    "lmst": "Sol-04741M13:52:11.927",
+    "date_taken_utc": "2025-12-07T12:08:56.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "120_808",
+  "sol": 4805,
+  "image_sol": 4805,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04805/opgs/edr/ncam/NLB_824057254EDR_F1200808NCAM00280M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4805,
+    "mast_az": 310.346,
+    "mast_el": -12.723,
+    "lmst": "Sol-04805M13:27:11.105",
+    "date_taken_utc": "2026-02-11T05:56:49.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04805/opgs/edr/ncam/NLB_824058063EDR_F1200808NCAM00281M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4805,
+    "mast_az": 221.789,
+    "mast_el": -16.3653,
+    "lmst": "Sol-04805M13:40:18.357",
+    "date_taken_utc": "2026-02-11T06:10:18.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04805/opgs/edr/ncam/NLB_824057340EDR_F1200808NCAM00280M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4805,
+    "mast_az": 39.1446,
+    "mast_el": -17.6519,
+    "lmst": "Sol-04805M13:28:34.895",
+    "date_taken_utc": "2026-02-11T05:58:16.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "120_2030",
+  "sol": 4818,
+  "image_sol": 4818,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04818/opgs/edr/ncam/NLB_825216750EDR_F1202030NCAM00295M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4818,
+    "mast_az": 300.146,
+    "mast_el": -12.3009,
+    "lmst": "Sol-04818M14:55:14.439",
+    "date_taken_utc": "2026-02-24T16:01:56.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04818/opgs/edr/ncam/NLB_825218134EDR_F1202030NCAM00296M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4818,
+    "mast_az": 211.583,
+    "mast_el": -15.9769,
+    "lmst": "Sol-04818M15:17:41.947",
+    "date_taken_utc": "2026-02-24T16:25:01.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04818/opgs/edr/ncam/NLB_825216829EDR_F1202030NCAM00295M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4818,
+    "mast_az": 28.6729,
+    "mast_el": -18.0177,
+    "lmst": "Sol-04818M14:56:31.222",
+    "date_taken_utc": "2026-02-24T16:03:15.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "121_0",
+  "sol": 4834,
+  "image_sol": 4834,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04834/opgs/edr/ncam/NLB_826633380EDR_F1210000NCAM00262M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4834,
+    "mast_az": 80.5329,
+    "mast_el": -8.21922,
+    "lmst": "Sol-04834M13:54:14.987",
+    "date_taken_utc": "2026-03-13T01:32:40.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04834/opgs/edr/ncam/NLB_826633459EDR_F1210000NCAM00262M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4834,
+    "mast_az": 167.432,
+    "mast_el": -15.2784,
+    "lmst": "Sol-04834M13:55:31.854",
+    "date_taken_utc": "2026-03-13T01:33:59.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04834/opgs/edr/ncam/NLB_826632355EDR_F1210000NCAM00261M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4834,
+    "mast_az": 353.017,
+    "mast_el": -18.3749,
+    "lmst": "Sol-04834M13:37:37.521",
+    "date_taken_utc": "2026-03-13T01:15:35.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "121_876",
+  "sol": 4844,
+  "image_sol": 4844,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04844/opgs/edr/ncam/NLB_827526024EDR_F1210876NCAM00274M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4844,
+    "mast_az": 218.611,
+    "mast_el": -4.93712,
+    "lmst": "Sol-04844M15:13:43.660",
+    "date_taken_utc": "2026-03-23T09:30:12.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04844/opgs/edr/ncam/NLB_827525872EDR_F1210876NCAM00274M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4844,
+    "mast_az": 133.678,
+    "mast_el": -8.15182,
+    "lmst": "Sol-04844M15:11:15.773",
+    "date_taken_utc": "2026-03-23T09:27:40.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04844/opgs/edr/ncam/NLB_827524765EDR_F1210876NCAM00273M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4844,
+    "mast_az": 305.599,
+    "mast_el": -28.1772,
+    "lmst": "Sol-04844M14:53:18.868",
+    "date_taken_utc": "2026-03-23T09:09:14.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "121_2004",
+  "sol": 4855,
+  "image_sol": 4855,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04855/opgs/edr/ncam/NLB_828494644EDR_F1212004NCAM00285M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4855,
+    "mast_az": 184.524,
+    "mast_el": -9.52679,
+    "lmst": "Sol-04855M13:05:37.017",
+    "date_taken_utc": "2026-04-03T14:34:02.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04855/opgs/edr/ncam/NLB_828493687EDR_F1212004NCAM00284M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4855,
+    "mast_az": 96.0296,
+    "mast_el": -13.0232,
+    "lmst": "Sol-04855M12:50:05.709",
+    "date_taken_utc": "2026-04-03T14:18:05.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04855/opgs/edr/ncam/NLB_828494737EDR_F1212004NCAM00285M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4855,
+    "mast_az": 271.91,
+    "mast_el": -16.809,
+    "lmst": "Sol-04855M13:07:06.892",
+    "date_taken_utc": "2026-04-03T14:35:34.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04855/mcam/4855ML1090870000212528E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4855,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2026-04-03T14:19:22.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "122_138",
+  "sol": 4889,
+  "image_sol": 4889,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04889/opgs/edr/ncam/NLB_831508120EDR_F1220138NCAM00251M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4889,
+    "mast_az": 170.842,
+    "mast_el": -6.1587,
+    "lmst": "Sol-04889M11:46:52.621",
+    "date_taken_utc": "2026-05-08T11:39:06.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04889/opgs/edr/ncam/NLB_831508269EDR_F1220138NCAM00251M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4889,
+    "mast_az": 257.192,
+    "mast_el": -14.8535,
+    "lmst": "Sol-04889M11:49:17.624",
+    "date_taken_utc": "2026-05-08T11:41:35.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04889/opgs/edr/ncam/NLB_831508040EDR_F1220138NCAM00251M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4889,
+    "mast_az": 83.9791,
+    "mast_el": -18.5508,
+    "lmst": "Sol-04889M11:45:35.578",
+    "date_taken_utc": "2026-05-08T11:37:47.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04889/mcam/4889ML1093230001900109E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4889,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2026-05-08T11:32:21.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "122_966",
+  "sol": 4914,
+  "image_sol": 4914,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04914/opgs/edr/ncam/NLB_833733518EDR_F1220966NCAM00264M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4914,
+    "mast_az": 165.082,
+    "mast_el": -9.60393,
+    "lmst": "Sol-04914M13:24:49.645",
+    "date_taken_utc": "2026-06-03T05:49:26.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04914/opgs/edr/ncam/NLB_833732472EDR_F1220966NCAM00263M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4914,
+    "mast_az": 77.5281,
+    "mast_el": -15.9269,
+    "lmst": "Sol-04914M13:07:51.605",
+    "date_taken_utc": "2026-06-03T05:32:00.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04914/opgs/edr/ncam/NLB_833733664EDR_F1220966NCAM00264M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4914,
+    "mast_az": 252.818,
+    "mast_el": -17.8601,
+    "lmst": "Sol-04914M13:27:11.725",
+    "date_taken_utc": "2026-06-03T05:51:52.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "122_1974",
+  "sol": 4923,
+  "image_sol": 4923,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04923/opgs/edr/ncam/NLB_834532954EDR_F1221974NCAM00276M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4923,
+    "mast_az": 179.088,
+    "mast_el": -10.1375,
+    "lmst": "Sol-04923M13:32:23.303",
+    "date_taken_utc": "2026-06-12T11:53:29.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04923/opgs/edr/ncam/NLB_834532053EDR_F1221974NCAM00275M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4923,
+    "mast_az": 91.359,
+    "mast_el": -15.5909,
+    "lmst": "Sol-04923M13:17:46.367",
+    "date_taken_utc": "2026-06-12T11:38:28.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04923/opgs/edr/ncam/NLB_834533099EDR_F1221974NCAM00276M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4923,
+    "mast_az": 267.096,
+    "mast_el": -18.2436,
+    "lmst": "Sol-04923M13:34:44.588",
+    "date_taken_utc": "2026-06-12T11:55:54.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04923/mcam/4923ML1095090001901002E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4923,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2026-06-12T11:39:39.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "123_102",
+  "sol": 4942,
+  "image_sol": 4942,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04942/opgs/edr/ncam/NLB_836218405EDR_F1230102NCAM00291M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4942,
+    "mast_az": 132.599,
+    "mast_el": -6.7962,
+    "lmst": "Sol-04942M13:11:54.674",
+    "date_taken_utc": "2026-07-02T00:04:36.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04942/opgs/edr/ncam/NLB_836218326EDR_F1230102NCAM00291M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4942,
+    "mast_az": 45.8653,
+    "mast_el": -16.5562,
+    "lmst": "Sol-04942M13:10:37.392",
+    "date_taken_utc": "2026-07-02T00:03:17.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04942/opgs/edr/ncam/NLB_836218551EDR_F1230102NCAM00291M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4942,
+    "mast_az": 219.409,
+    "mast_el": -17.0998,
+    "lmst": "Sol-04942M13:14:16.591",
+    "date_taken_utc": "2026-07-02T00:07:02.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04942/mcam/4942ML1095850001902239E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4942,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2026-07-01T23:52:25.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "123_1344",
+  "sol": 4953,
+  "image_sol": 4953,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04953/opgs/edr/ncam/NLB_837196937EDR_F1231344NCAM00252M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4953,
+    "mast_az": 227.146,
+    "mast_el": -10.2121,
+    "lmst": "Sol-04953M13:44:34.864",
+    "date_taken_utc": "2026-07-13T07:53:38.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04953/opgs/edr/ncam/NLB_837198091EDR_F1231344NCAM00253M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4953,
+    "mast_az": 139.182,
+    "mast_el": -15.58,
+    "lmst": "Sol-04953M14:03:17.417",
+    "date_taken_utc": "2026-07-13T08:12:51.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04953/opgs/edr/ncam/NLB_837197017EDR_F1231344NCAM00252M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4953,
+    "mast_az": 315.086,
+    "mast_el": -18.2628,
+    "lmst": "Sol-04953M13:45:52.025",
+    "date_taken_utc": "2026-07-13T07:54:57.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "123_2544",
+  "sol": 4963,
+  "image_sol": 4963,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04963/opgs/edr/ncam/NLB_838089558EDR_F1232544NCAM00266M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4963,
+    "mast_az": 151.314,
+    "mast_el": -9.77872,
+    "lmst": "Sol-04963M15:03:40.909",
+    "date_taken_utc": "2026-07-23T15:50:47.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04963/opgs/edr/ncam/NLB_838089704EDR_F1232544NCAM00266M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4963,
+    "mast_az": 238.919,
+    "mast_el": -15.9138,
+    "lmst": "Sol-04963M15:06:03.002",
+    "date_taken_utc": "2026-07-23T15:53:13.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04963/opgs/edr/ncam/NLB_838088490EDR_F1232544NCAM00265M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4963,
+    "mast_az": 63.4088,
+    "mast_el": -17.8904,
+    "lmst": "Sol-04963M14:46:21.276",
+    "date_taken_utc": "2026-07-23T15:32:59.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "124_744",
+  "sol": 4983,
+  "image_sol": 4983,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04983/opgs/edr/ncam/NLB_839865814EDR_F1240744NCAM00281M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4983,
+    "mast_az": 155.382,
+    "mast_el": -9.57303,
+    "lmst": "Sol-04983M15:16:08.557",
+    "date_taken_utc": "2026-08-13T05:15:20.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04983/opgs/edr/ncam/NLB_839865960EDR_F1240744NCAM00281M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4983,
+    "mast_az": 242.882,
+    "mast_el": -15.1155,
+    "lmst": "Sol-04983M15:18:30.788",
+    "date_taken_utc": "2026-08-13T05:17:46.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04983/opgs/edr/ncam/NLB_839864746EDR_F1240744NCAM00280M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4983,
+    "mast_az": 67.387,
+    "mast_el": -18.6548,
+    "lmst": "Sol-04983M14:58:49.484",
+    "date_taken_utc": "2026-08-13T04:57:32.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "124_1872",
+  "sol": 4996,
+  "image_sol": 4996,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04996/opgs/edr/ncam/NLB_841011596EDR_F1241872NCAM00293M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4996,
+    "mast_az": 185.566,
+    "mast_el": -5.97489,
+    "lmst": "Sol-04996M13:01:44.955",
+    "date_taken_utc": "2026-08-26T11:31:53.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04996/opgs/edr/ncam/NLB_841011689EDR_F1241872NCAM00293M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4996,
+    "mast_az": 271.747,
+    "mast_el": -15.0702,
+    "lmst": "Sol-04996M13:03:15.724",
+    "date_taken_utc": "2026-08-26T11:33:26.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04996/opgs/edr/ncam/NLB_841011450EDR_F1241872NCAM00293M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 4996,
+    "mast_az": 98.7709,
+    "mast_el": -18.3057,
+    "lmst": "Sol-04996M12:59:23.175",
+    "date_taken_utc": "2026-08-26T11:29:27.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/msss/04996/mcam/4996ML1099320001904528E01_DXXX.jpg",
+    "instrument": "MAST_LEFT",
+    "sol": 4996,
+    "mast_az": null,
+    "mast_el": null,
+    "lmst": null,
+    "date_taken_utc": "2026-08-26T11:11:58.000Z",
+    "sample_type": "subframe",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "match": "sol_time_after_first_navcam_at_site_drive",
+    "color": true
+   }
+  ]
+ },
+ {
+  "rmc": "124_2866",
+  "sol": 5011,
+  "image_sol": 5011,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/05011/opgs/edr/ncam/NLB_842351056EDR_F1242866NCAM00255M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 5011,
+    "mast_az": 187.678,
+    "mast_el": -5.49756,
+    "lmst": "Sol-05011M15:08:59.182",
+    "date_taken_utc": "2026-09-10T23:36:26.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/05011/opgs/edr/ncam/NLB_842350917EDR_F1242866NCAM00255M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 5011,
+    "mast_az": 101.151,
+    "mast_el": -15.1248,
+    "lmst": "Sol-05011M15:06:44.219",
+    "date_taken_utc": "2026-09-10T23:34:07.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/05011/opgs/edr/ncam/NLB_842349802EDR_F1242866NCAM00254M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 5011,
+    "mast_az": 39.5506,
+    "mast_el": -16.1722,
+    "lmst": "Sol-05011M14:48:38.521",
+    "date_taken_utc": "2026-09-10T23:15:31.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "125_1194",
+  "sol": 5041,
+  "image_sol": 5041,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/05041/opgs/edr/ncam/NLB_845015510EDR_F1251194NCAM00270M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 5041,
+    "mast_az": 130.976,
+    "mast_el": -6.0775,
+    "lmst": "Sol-05041M15:28:49.070",
+    "date_taken_utc": "2026-10-11T19:44:26.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/05041/opgs/edr/ncam/NLB_845015663EDR_F1251194NCAM00270M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 5041,
+    "mast_az": 217.686,
+    "mast_el": -16.0142,
+    "lmst": "Sol-05041M15:31:17.803",
+    "date_taken_utc": "2026-10-11T19:46:58.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/05041/opgs/edr/ncam/NLB_845014919EDR_F1251194NCAM00269M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 5041,
+    "mast_az": 44.3324,
+    "mast_el": -17.4068,
+    "lmst": "Sol-05041M15:19:13.253",
+    "date_taken_utc": "2026-10-11T19:34:34.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ },
+ {
+  "rmc": "125_2490",
+  "sol": 5073,
+  "image_sol": 5073,
+  "images": [
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/05073/opgs/edr/ncam/NLB_847852920EDR_F1252490NCAM00282M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 5073,
+    "mast_az": 157.077,
+    "mast_el": -4.63516,
+    "lmst": "Sol-05073M14:34:08.418",
+    "date_taken_utc": "2026-11-13T15:55:03.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/05073/opgs/edr/ncam/NLB_847853098EDR_F1252490NCAM00282M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 5073,
+    "mast_az": 274.431,
+    "mast_el": -15.1262,
+    "lmst": "Sol-05073M14:37:01.182",
+    "date_taken_utc": "2026-11-13T15:58:00.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   },
+   {
+    "url": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/05073/opgs/edr/ncam/NLB_847852137EDR_F1252490NCAM00281M_.JPG",
+    "instrument": "NAV_LEFT_B",
+    "sol": 5073,
+    "mast_az": 70.8906,
+    "mast_el": -17.6324,
+    "lmst": "Sol-05073M14:21:25.829",
+    "date_taken_utc": "2026-11-13T15:41:59.000Z",
+    "sample_type": "full",
+    "credit": "NASA/JPL-Caltech",
+    "match": "site_drive"
+   }
+  ]
+ }
+]
